@@ -1,4 +1,3 @@
-#define STB_IMAGE_IMPLEMENTATION
 #include "GameUtil/Game.h"
 #include "GameUtil/stb_image.h"
 #include "GameUtil/ResourceManager.h"

@@ -27,17 +27,6 @@ src/GameUtil/CMakeFiles/GameUtil.dir/Game.cpp.obj: \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/limits.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/malloc.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/lib/gcc/x86_64-w64-mingw32/5.4.0/include/stdarg.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/stdarg.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/string.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/math.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/assert.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/lib/gcc/x86_64-w64-mingw32/5.4.0/include/emmintrin.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/lib/gcc/x86_64-w64-mingw32/5.4.0/include/xmmintrin.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/lib/gcc/x86_64-w64-mingw32/5.4.0/include/mmintrin.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/lib/gcc/x86_64-w64-mingw32/5.4.0/include/mm_malloc.h \
  G:/my_program/cpp/Breakout/include/GameUtil/ResourceManager.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/map \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_tree.h \
@@ -120,8 +109,10 @@ src/GameUtil/CMakeFiles/GameUtil.dir/Game.cpp.obj: \
  G:/my_program/cpp/Breakout/include/glm/glm.hpp \
  G:/my_program/cpp/Breakout/include/glm/detail/_fixes.hpp \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/cmath \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/math.h \
  G:/my_program/cpp/Breakout/include/glm/detail/setup.hpp \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/cassert \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/assert.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/cstddef \
  G:/my_program/cpp/Breakout/include/glm/simd/platform.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/climits \
@@ -309,6 +300,8 @@ src/GameUtil/CMakeFiles/GameUtil.dir/Game.cpp.obj: \
  G:/my_program/cpp/Breakout/include/glm/ext/vector_uint1.hpp \
  G:/my_program/cpp/Breakout/include/glm/ext/vector_uint1_sized.hpp \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/cstring \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/string.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
  G:/my_program/cpp/Breakout/include/glm/gtc/type_ptr.inl \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/fstream \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/istream \

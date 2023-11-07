@@ -3,6 +3,8 @@
 #include <sstream>
 #include <fstream>
 #include "GameUtil/stb_image.h"
+
+
 namespace GameUtil
 {
     std::map<std::string, Texture2d> ResourceManager::Textures;
@@ -89,9 +91,9 @@ namespace GameUtil
         }
 
         GLint width, height, nrChannels;
-        unsigned char *image = stbi_load(file, &width, &height, &nrChannels, 0);
-        texture.Generate(width, height, image);
-        stbi_image_free(image);
+        unsigned char *data = stbi_load(file, &width, &height, &nrChannels, 0);
+        texture.Generate(width, height, data);
+        stbi_image_free(data);
         return texture;
     }
 }

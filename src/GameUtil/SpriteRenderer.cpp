@@ -1,3 +1,4 @@
+#define GLFW_INCLUDE_GLCOREARB
 #include "GameUtil/SpriteRenderer.h"
 
 namespace GameUtil{
@@ -5,6 +6,10 @@ namespace GameUtil{
         this->shader = shader;
         this->initRenderData();
     }
+    SpriteRenderer::~SpriteRenderer(){
+        glDeleteVertexArrays(1, &this->quadVAO);
+    }
+
     void SpriteRenderer::initRenderData()
     {
         GLuint vbo;
@@ -34,7 +39,10 @@ namespace GameUtil{
                                     glm::vec2 position, 
                                     glm::vec2 size, GLfloat rotate, glm::vec3 color){
         this->shader.Use();
-        glm::mat4 model;
+
+        // glm大坑，必须使用glm::mat4(1.0)不能直接glm::mat4 model;
+        glm::mat4 model = glm::mat4(1.0);
+        
         model = glm::translate(model, glm::vec3(position, 0.0f));
 
         model = glm::translate(model, glm::vec3(0.5f * size.x, 0.5f * size.y, 0.0f));
@@ -52,5 +60,7 @@ namespace GameUtil{
         glBindVertexArray(this->quadVAO);
         glDrawArrays(GL_TRIANGLES, 0, 6);
         glBindVertexArray(0);
+
+        
     }
 }

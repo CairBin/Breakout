@@ -128,20 +128,35 @@ src/GameUtil/CMakeFiles/GameUtil.dir/SpriteRenderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameUtil.dir/SpriteRenderer.cpp.s"
 	cd /d G:\my_program\cpp\Breakout\build\src\GameUtil && D:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\my_program\cpp\Breakout\src\GameUtil\SpriteRenderer.cpp -o CMakeFiles\GameUtil.dir\SpriteRenderer.cpp.s
 
-src/GameUtil/CMakeFiles/GameUtil.dir/Texture2d.cpp.obj: src/GameUtil/CMakeFiles/GameUtil.dir/flags.make
-src/GameUtil/CMakeFiles/GameUtil.dir/Texture2d.cpp.obj: src/GameUtil/CMakeFiles/GameUtil.dir/includes_CXX.rsp
-src/GameUtil/CMakeFiles/GameUtil.dir/Texture2d.cpp.obj: G:/my_program/cpp/Breakout/src/GameUtil/Texture2d.cpp
-src/GameUtil/CMakeFiles/GameUtil.dir/Texture2d.cpp.obj: src/GameUtil/CMakeFiles/GameUtil.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/GameUtil/CMakeFiles/GameUtil.dir/Texture2d.cpp.obj"
-	cd /d G:\my_program\cpp\Breakout\build\src\GameUtil && D:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameUtil/CMakeFiles/GameUtil.dir/Texture2d.cpp.obj -MF CMakeFiles\GameUtil.dir\Texture2d.cpp.obj.d -o CMakeFiles\GameUtil.dir\Texture2d.cpp.obj -c G:\my_program\cpp\Breakout\src\GameUtil\Texture2d.cpp
+src/GameUtil/CMakeFiles/GameUtil.dir/Texture.cpp.obj: src/GameUtil/CMakeFiles/GameUtil.dir/flags.make
+src/GameUtil/CMakeFiles/GameUtil.dir/Texture.cpp.obj: src/GameUtil/CMakeFiles/GameUtil.dir/includes_CXX.rsp
+src/GameUtil/CMakeFiles/GameUtil.dir/Texture.cpp.obj: G:/my_program/cpp/Breakout/src/GameUtil/Texture.cpp
+src/GameUtil/CMakeFiles/GameUtil.dir/Texture.cpp.obj: src/GameUtil/CMakeFiles/GameUtil.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/GameUtil/CMakeFiles/GameUtil.dir/Texture.cpp.obj"
+	cd /d G:\my_program\cpp\Breakout\build\src\GameUtil && D:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameUtil/CMakeFiles/GameUtil.dir/Texture.cpp.obj -MF CMakeFiles\GameUtil.dir\Texture.cpp.obj.d -o CMakeFiles\GameUtil.dir\Texture.cpp.obj -c G:\my_program\cpp\Breakout\src\GameUtil\Texture.cpp
 
-src/GameUtil/CMakeFiles/GameUtil.dir/Texture2d.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameUtil.dir/Texture2d.cpp.i"
-	cd /d G:\my_program\cpp\Breakout\build\src\GameUtil && D:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\my_program\cpp\Breakout\src\GameUtil\Texture2d.cpp > CMakeFiles\GameUtil.dir\Texture2d.cpp.i
+src/GameUtil/CMakeFiles/GameUtil.dir/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameUtil.dir/Texture.cpp.i"
+	cd /d G:\my_program\cpp\Breakout\build\src\GameUtil && D:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\my_program\cpp\Breakout\src\GameUtil\Texture.cpp > CMakeFiles\GameUtil.dir\Texture.cpp.i
 
-src/GameUtil/CMakeFiles/GameUtil.dir/Texture2d.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameUtil.dir/Texture2d.cpp.s"
-	cd /d G:\my_program\cpp\Breakout\build\src\GameUtil && D:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\my_program\cpp\Breakout\src\GameUtil\Texture2d.cpp -o CMakeFiles\GameUtil.dir\Texture2d.cpp.s
+src/GameUtil/CMakeFiles/GameUtil.dir/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameUtil.dir/Texture.cpp.s"
+	cd /d G:\my_program\cpp\Breakout\build\src\GameUtil && D:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\my_program\cpp\Breakout\src\GameUtil\Texture.cpp -o CMakeFiles\GameUtil.dir\Texture.cpp.s
+
+src/GameUtil/CMakeFiles/GameUtil.dir/stb_image.cpp.obj: src/GameUtil/CMakeFiles/GameUtil.dir/flags.make
+src/GameUtil/CMakeFiles/GameUtil.dir/stb_image.cpp.obj: src/GameUtil/CMakeFiles/GameUtil.dir/includes_CXX.rsp
+src/GameUtil/CMakeFiles/GameUtil.dir/stb_image.cpp.obj: G:/my_program/cpp/Breakout/src/GameUtil/stb_image.cpp
+src/GameUtil/CMakeFiles/GameUtil.dir/stb_image.cpp.obj: src/GameUtil/CMakeFiles/GameUtil.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/GameUtil/CMakeFiles/GameUtil.dir/stb_image.cpp.obj"
+	cd /d G:\my_program\cpp\Breakout\build\src\GameUtil && D:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameUtil/CMakeFiles/GameUtil.dir/stb_image.cpp.obj -MF CMakeFiles\GameUtil.dir\stb_image.cpp.obj.d -o CMakeFiles\GameUtil.dir\stb_image.cpp.obj -c G:\my_program\cpp\Breakout\src\GameUtil\stb_image.cpp
+
+src/GameUtil/CMakeFiles/GameUtil.dir/stb_image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameUtil.dir/stb_image.cpp.i"
+	cd /d G:\my_program\cpp\Breakout\build\src\GameUtil && D:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\my_program\cpp\Breakout\src\GameUtil\stb_image.cpp > CMakeFiles\GameUtil.dir\stb_image.cpp.i
+
+src/GameUtil/CMakeFiles/GameUtil.dir/stb_image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameUtil.dir/stb_image.cpp.s"
+	cd /d G:\my_program\cpp\Breakout\build\src\GameUtil && D:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\my_program\cpp\Breakout\src\GameUtil\stb_image.cpp -o CMakeFiles\GameUtil.dir\stb_image.cpp.s
 
 # Object files for target GameUtil
 GameUtil_OBJECTS = \
@@ -149,7 +164,8 @@ GameUtil_OBJECTS = \
 "CMakeFiles/GameUtil.dir/ResourceManager.cpp.obj" \
 "CMakeFiles/GameUtil.dir/Shader.cpp.obj" \
 "CMakeFiles/GameUtil.dir/SpriteRenderer.cpp.obj" \
-"CMakeFiles/GameUtil.dir/Texture2d.cpp.obj"
+"CMakeFiles/GameUtil.dir/Texture.cpp.obj" \
+"CMakeFiles/GameUtil.dir/stb_image.cpp.obj"
 
 # External object files for target GameUtil
 GameUtil_EXTERNAL_OBJECTS =
@@ -158,13 +174,14 @@ G:/my_program/cpp/Breakout/bin/libGameUtil.dll: src/GameUtil/CMakeFiles/GameUtil
 G:/my_program/cpp/Breakout/bin/libGameUtil.dll: src/GameUtil/CMakeFiles/GameUtil.dir/ResourceManager.cpp.obj
 G:/my_program/cpp/Breakout/bin/libGameUtil.dll: src/GameUtil/CMakeFiles/GameUtil.dir/Shader.cpp.obj
 G:/my_program/cpp/Breakout/bin/libGameUtil.dll: src/GameUtil/CMakeFiles/GameUtil.dir/SpriteRenderer.cpp.obj
-G:/my_program/cpp/Breakout/bin/libGameUtil.dll: src/GameUtil/CMakeFiles/GameUtil.dir/Texture2d.cpp.obj
+G:/my_program/cpp/Breakout/bin/libGameUtil.dll: src/GameUtil/CMakeFiles/GameUtil.dir/Texture.cpp.obj
+G:/my_program/cpp/Breakout/bin/libGameUtil.dll: src/GameUtil/CMakeFiles/GameUtil.dir/stb_image.cpp.obj
 G:/my_program/cpp/Breakout/bin/libGameUtil.dll: src/GameUtil/CMakeFiles/GameUtil.dir/build.make
 G:/my_program/cpp/Breakout/bin/libGameUtil.dll: G:/my_program/cpp/Breakout/lib/libglad.dll.a
 G:/my_program/cpp/Breakout/bin/libGameUtil.dll: src/GameUtil/CMakeFiles/GameUtil.dir/linkLibs.rsp
 G:/my_program/cpp/Breakout/bin/libGameUtil.dll: src/GameUtil/CMakeFiles/GameUtil.dir/objects1
 G:/my_program/cpp/Breakout/bin/libGameUtil.dll: src/GameUtil/CMakeFiles/GameUtil.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library G:\my_program\cpp\Breakout\bin\libGameUtil.dll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library G:\my_program\cpp\Breakout\bin\libGameUtil.dll"
 	cd /d G:\my_program\cpp\Breakout\build\src\GameUtil && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GameUtil.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

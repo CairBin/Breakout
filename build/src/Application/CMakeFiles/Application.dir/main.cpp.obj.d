@@ -331,4 +331,5 @@ src/Application/CMakeFiles/Application.dir/main.cpp.obj: \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/sstream \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/sstream.tcc \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/iostream \
- G:/my_program/cpp/Breakout/include/GLFW/glfw3.h
+ G:/my_program/cpp/Breakout/include/GLFW/glfw3.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/GL/glcorearb.h

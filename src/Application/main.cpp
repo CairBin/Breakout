@@ -1,9 +1,10 @@
+#define GLFW_INCLUDE_GLCOREARB
 #include "GameUtil/Game.h"
 #include "GameUtil/ResourceManager.h"
 #include "GLFW/glfw3.h"
 #include <iostream>
 
-void processInput(GLFWwindow *window);
+void framebuffer_size_callback(GLFWwindow *window, int width, int height);
 void key_callback(GLFWwindow *window, int key, int scancode, int action, int mode);
 
 #define SCR_WIDTH 800
@@ -20,7 +21,7 @@ int main(){
 #ifdef __APPLE__
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 #endif
-    GLFWwindow *window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
+    GLFWwindow *window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Breakout", NULL, NULL);
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -28,22 +29,25 @@ int main(){
         return -1;
     }
     glfwMakeContextCurrent(window);
-    glfwSetKeyCallback(window,key_callback);
-    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+   
+    //glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
     {
         std::cout << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
-
+    glfwSetKeyCallback(window, key_callback);
+    glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
     glViewport(0, 0, SCR_WIDTH, SCR_HEIGHT);
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     Breakout.Initialize();
     GLfloat deltaTime = 0.0f;
     GLfloat lastFrame = 0.0f;
     Breakout.State = GameUtil::GameState::GAME_ACTIVE;
-    std::cout << "hi" << std::endl;
+    // std::cout << "hi" << std::endl;
     while (!glfwWindowShouldClose(window))
     {
         GLfloat currentFrame = glfwGetTime();
@@ -77,4 +81,8 @@ void key_callback(GLFWwindow *window, int key, int scancode, int action, int mod
         else if (action == GLFW_RELEASE)
             Breakout.Keys[key] = GL_FALSE;
     }
+}
+void framebuffer_size_callback(GLFWwindow *window, int width, int height)
+{
+    glViewport(0, 0, width, height);
 }

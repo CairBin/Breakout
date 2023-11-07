@@ -12,7 +12,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "G:/my_program/cpp/Breakout/src/GameUtil/ResourceManager.cpp" "src/GameUtil/CMakeFiles/GameUtil.dir/ResourceManager.cpp.obj" "gcc" "src/GameUtil/CMakeFiles/GameUtil.dir/ResourceManager.cpp.obj.d"
   "G:/my_program/cpp/Breakout/src/GameUtil/Shader.cpp" "src/GameUtil/CMakeFiles/GameUtil.dir/Shader.cpp.obj" "gcc" "src/GameUtil/CMakeFiles/GameUtil.dir/Shader.cpp.obj.d"
   "G:/my_program/cpp/Breakout/src/GameUtil/SpriteRenderer.cpp" "src/GameUtil/CMakeFiles/GameUtil.dir/SpriteRenderer.cpp.obj" "gcc" "src/GameUtil/CMakeFiles/GameUtil.dir/SpriteRenderer.cpp.obj.d"
-  "G:/my_program/cpp/Breakout/src/GameUtil/Texture2d.cpp" "src/GameUtil/CMakeFiles/GameUtil.dir/Texture2d.cpp.obj" "gcc" "src/GameUtil/CMakeFiles/GameUtil.dir/Texture2d.cpp.obj.d"
+  "G:/my_program/cpp/Breakout/src/GameUtil/Texture.cpp" "src/GameUtil/CMakeFiles/GameUtil.dir/Texture.cpp.obj" "gcc" "src/GameUtil/CMakeFiles/GameUtil.dir/Texture.cpp.obj.d"
+  "G:/my_program/cpp/Breakout/src/GameUtil/stb_image.cpp" "src/GameUtil/CMakeFiles/GameUtil.dir/stb_image.cpp.obj" "gcc" "src/GameUtil/CMakeFiles/GameUtil.dir/stb_image.cpp.obj.d"
   )
 
 # Targets to which this target links.
