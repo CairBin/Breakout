@@ -1,0 +1,13 @@
+G:/my_program/cpp/Breakout/build/CMakeFiles/edit_cache.dir
+G:/my_program/cpp/Breakout/build/CMakeFiles/rebuild_cache.dir
+G:/my_program/cpp/Breakout/build/src/CMakeFiles/edit_cache.dir
+G:/my_program/cpp/Breakout/build/src/CMakeFiles/rebuild_cache.dir
+G:/my_program/cpp/Breakout/build/src/Application/CMakeFiles/Application.dir
+G:/my_program/cpp/Breakout/build/src/Application/CMakeFiles/edit_cache.dir
+G:/my_program/cpp/Breakout/build/src/Application/CMakeFiles/rebuild_cache.dir
+G:/my_program/cpp/Breakout/build/src/GameUtil/CMakeFiles/GameUtil.dir
+G:/my_program/cpp/Breakout/build/src/GameUtil/CMakeFiles/edit_cache.dir
+G:/my_program/cpp/Breakout/build/src/GameUtil/CMakeFiles/rebuild_cache.dir
+G:/my_program/cpp/Breakout/build/src/glad/CMakeFiles/glad.dir
+G:/my_program/cpp/Breakout/build/src/glad/CMakeFiles/edit_cache.dir
+G:/my_program/cpp/Breakout/build/src/glad/CMakeFiles/rebuild_cache.dir
