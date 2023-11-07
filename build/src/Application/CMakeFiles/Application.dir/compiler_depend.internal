@@ -3,7 +3,8 @@
 
 src/Application/CMakeFiles/Application.dir/main.cpp.obj
  G:/my_program/cpp/Breakout/src/Application/main.cpp
- G:/my_program/cpp/Breakout/include/GameUtil/Game.h
+ G:/my_program/cpp/Breakout/include/GameUtil/GameUtil.h
+ G:/my_program/cpp/Breakout/include/GameUtil/GameWindow.h
  G:/my_program/cpp/Breakout/include/glad/glad.h
  G:/my_program/cpp/Breakout/include/KHR/khrplatform.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.4.0/include/stdint.h
@@ -17,13 +18,16 @@ src/Application/CMakeFiles/Application.dir/main.cpp.obj
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.4.0/include/stddef.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/stddef.h
- G:/my_program/cpp/Breakout/include/GameUtil/ResourceManager.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/map
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_tree.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_algobase.h
+ G:/my_program/cpp/Breakout/include/GLFW/glfw3.h
+ G:/my_program/cpp/Breakout/include/GameUtil/Game.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/string
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/c++config.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/os_defines.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stringfwd.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/memoryfwd.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/char_traits.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_algobase.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/functexcept.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/exception_defines.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/cpp_type_traits.h
@@ -39,30 +43,6 @@ src/Application/CMakeFiles/Application.dir/main.cpp.obj
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_iterator.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/ptr_traits.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/predefined_ops.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/allocator.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/c++allocator.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/ext/new_allocator.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/new
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/exception
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/atomic_lockfree_defines.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/exception_ptr.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/nested_exception.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/memoryfwd.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_function.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/backward/binders.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/ext/alloc_traits.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/alloc_traits.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/ext/aligned_buffer.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_map.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/initializer_list
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/tuple
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/utility
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_relops.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/array
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/stdexcept
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/string
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stringfwd.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/char_traits.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/postypes.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/cwchar
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/wchar.h
@@ -73,6 +53,14 @@ src/Application/CMakeFiles/Application.dir/main.cpp.obj
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/cstdint
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/allocator.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/c++allocator.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/ext/new_allocator.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/new
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/exception
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/atomic_lockfree_defines.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/exception_ptr.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/nested_exception.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/localefwd.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/c++locale.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/clocale
@@ -84,13 +72,18 @@ src/Application/CMakeFiles/Application.dir/main.cpp.obj
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/ctype.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/ostream_insert.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/cxxabi_forced.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_function.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/backward/binders.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/range_access.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/initializer_list
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/basic_string.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/ext/atomicity.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/gthr.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/gthr-default.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/errno.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/atomic_word.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/ext/alloc_traits.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/alloc_traits.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/ext/string_conversions.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/cstdlib
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/stdlib.h
@@ -104,10 +97,14 @@ src/Application/CMakeFiles/Application.dir/main.cpp.obj
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/functional_hash.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/hash_bytes.h
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/basic_string.tcc
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/uses_allocator.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_multimap.h
- G:/my_program/cpp/Breakout/include/GameUtil/Texture.h
- G:/my_program/cpp/Breakout/include/GameUtil/Shader.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/vector
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_construct.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_uninitialized.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_vector.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_bvector.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/vector.tcc
+ G:/my_program/cpp/Breakout/include/GameUtil/GameLevel.h
+ G:/my_program/cpp/Breakout/include/GameUtil/GameObject.h
  G:/my_program/cpp/Breakout/include/glm/glm.hpp
  G:/my_program/cpp/Breakout/include/glm/detail/_fixes.hpp
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/cmath
@@ -253,6 +250,9 @@ src/Application/CMakeFiles/Application.dir/main.cpp.obj
  G:/my_program/cpp/Breakout/include/glm/detail/type_half.inl
  G:/my_program/cpp/Breakout/include/glm/integer.hpp
  G:/my_program/cpp/Breakout/include/glm/detail/func_integer.inl
+ G:/my_program/cpp/Breakout/include/GameUtil/Texture.h
+ G:/my_program/cpp/Breakout/include/GameUtil/SpriteRenderer.h
+ G:/my_program/cpp/Breakout/include/GameUtil/Shader.h
  G:/my_program/cpp/Breakout/include/glm/gtc/type_ptr.hpp
  G:/my_program/cpp/Breakout/include/glm/gtc/quaternion.hpp
  G:/my_program/cpp/Breakout/include/glm/gtc/constants.hpp
@@ -313,6 +313,7 @@ src/Application/CMakeFiles/Application.dir/main.cpp.obj
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/locale_classes.tcc
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/system_error
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/error_constants.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/stdexcept
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/streambuf
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/streambuf.tcc
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/basic_ios.h
@@ -334,6 +335,17 @@ src/Application/CMakeFiles/Application.dir/main.cpp.obj
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/sstream
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/sstream.tcc
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/iostream
- G:/my_program/cpp/Breakout/include/GLFW/glfw3.h
- D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/GL/glcorearb.h
+ G:/my_program/cpp/Breakout/include/GameUtil/ResourceManager.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/map
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_tree.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/ext/aligned_buffer.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_map.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/tuple
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/utility
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_relops.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/array
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/uses_allocator.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_multimap.h
+ G:/my_program/cpp/Breakout/include/GameUtil/ResourceManager.h
+ G:/my_program/cpp/Breakout/include/GameUtil/EntryPoint.h
 

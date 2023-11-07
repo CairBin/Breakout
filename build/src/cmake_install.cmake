@@ -42,6 +42,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("G:/my_program/cpp/Breakout/build/src/GLFW/cmake_install.cmake")
   include("G:/my_program/cpp/Breakout/build/src/glad/cmake_install.cmake")
   include("G:/my_program/cpp/Breakout/build/src/GameUtil/cmake_install.cmake")
+  include("G:/my_program/cpp/Breakout/build/src/Game/cmake_install.cmake")
   include("G:/my_program/cpp/Breakout/build/src/Application/cmake_install.cmake")
 
 endif()

@@ -226,6 +226,19 @@ GameUtil/fast:
 .PHONY : GameUtil/fast
 
 #=============================================================================
+# Target rules for targets named Game
+
+# Build rule for target.
+Game: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Game
+.PHONY : Game
+
+# fast build rule for target.
+Game/fast:
+	$(MAKE) $(MAKESILENT) -f src\Game\CMakeFiles\Game.dir\build.make src/Game/CMakeFiles/Game.dir/build
+.PHONY : Game/fast
+
+#=============================================================================
 # Target rules for targets named Application
 
 # Build rule for target.
@@ -253,6 +266,7 @@ help:
 	@echo ... uninstall
 	@echo ... update_mappings
 	@echo ... Application
+	@echo ... Game
 	@echo ... GameUtil
 	@echo ... glad
 	@echo ... glfw

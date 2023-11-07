@@ -198,6 +198,78 @@ Game.cpp.s:
 	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
+GameLevel.obj: GameLevel.cpp.obj
+.PHONY : GameLevel.obj
+
+# target to build an object file
+GameLevel.cpp.obj:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/GameLevel.cpp.obj
+.PHONY : GameLevel.cpp.obj
+
+GameLevel.i: GameLevel.cpp.i
+.PHONY : GameLevel.i
+
+# target to preprocess a source file
+GameLevel.cpp.i:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/GameLevel.cpp.i
+.PHONY : GameLevel.cpp.i
+
+GameLevel.s: GameLevel.cpp.s
+.PHONY : GameLevel.s
+
+# target to generate assembly for a file
+GameLevel.cpp.s:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/GameLevel.cpp.s
+.PHONY : GameLevel.cpp.s
+
+GameObject.obj: GameObject.cpp.obj
+.PHONY : GameObject.obj
+
+# target to build an object file
+GameObject.cpp.obj:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/GameObject.cpp.obj
+.PHONY : GameObject.cpp.obj
+
+GameObject.i: GameObject.cpp.i
+.PHONY : GameObject.i
+
+# target to preprocess a source file
+GameObject.cpp.i:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/GameObject.cpp.i
+.PHONY : GameObject.cpp.i
+
+GameObject.s: GameObject.cpp.s
+.PHONY : GameObject.s
+
+# target to generate assembly for a file
+GameObject.cpp.s:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/GameObject.cpp.s
+.PHONY : GameObject.cpp.s
+
+GameWindow.obj: GameWindow.cpp.obj
+.PHONY : GameWindow.obj
+
+# target to build an object file
+GameWindow.cpp.obj:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/GameWindow.cpp.obj
+.PHONY : GameWindow.cpp.obj
+
+GameWindow.i: GameWindow.cpp.i
+.PHONY : GameWindow.i
+
+# target to preprocess a source file
+GameWindow.cpp.i:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/GameWindow.cpp.i
+.PHONY : GameWindow.cpp.i
+
+GameWindow.s: GameWindow.cpp.s
+.PHONY : GameWindow.s
+
+# target to generate assembly for a file
+GameWindow.cpp.s:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/GameWindow.cpp.s
+.PHONY : GameWindow.cpp.s
+
 ResourceManager.obj: ResourceManager.cpp.obj
 .PHONY : ResourceManager.obj
 
@@ -334,6 +406,15 @@ help:
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s
+	@echo ... GameLevel.obj
+	@echo ... GameLevel.i
+	@echo ... GameLevel.s
+	@echo ... GameObject.obj
+	@echo ... GameObject.i
+	@echo ... GameObject.s
+	@echo ... GameWindow.obj
+	@echo ... GameWindow.i
+	@echo ... GameWindow.s
 	@echo ... ResourceManager.obj
 	@echo ... ResourceManager.i
 	@echo ... ResourceManager.s

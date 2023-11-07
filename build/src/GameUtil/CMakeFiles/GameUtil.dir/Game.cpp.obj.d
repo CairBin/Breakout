@@ -14,26 +14,14 @@ src/GameUtil/CMakeFiles/GameUtil.dir/Game.cpp.obj: \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/lib/gcc/x86_64-w64-mingw32/5.4.0/include/stddef.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/stddef.h \
- G:/my_program/cpp/Breakout/include/GameUtil/stb_image.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/stdio.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/stdlib.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/lib/gcc/x86_64-w64-mingw32/5.4.0/include-fixed/limits.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/lib/gcc/x86_64-w64-mingw32/5.4.0/include-fixed/syslimits.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/limits.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/malloc.h \
- G:/my_program/cpp/Breakout/include/GameUtil/ResourceManager.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/map \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_tree.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_algobase.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/string \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stringfwd.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/memoryfwd.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/char_traits.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_algobase.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/functexcept.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/exception_defines.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/cpp_type_traits.h \
@@ -49,6 +37,16 @@ src/GameUtil/CMakeFiles/GameUtil.dir/Game.cpp.obj: \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_iterator.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/ptr_traits.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/predefined_ops.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/postypes.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/cwchar \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/wchar.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/cstdint \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/allocator.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/ext/new_allocator.h \
@@ -57,55 +55,50 @@ src/GameUtil/CMakeFiles/GameUtil.dir/Game.cpp.obj: \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/atomic_lockfree_defines.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/exception_ptr.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/nested_exception.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/memoryfwd.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_function.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/backward/binders.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/ext/alloc_traits.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/alloc_traits.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/ext/aligned_buffer.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_map.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/initializer_list \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/tuple \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/utility \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_relops.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/array \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/stdexcept \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/string \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stringfwd.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/char_traits.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/postypes.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/cwchar \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/wchar.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/cstdint \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/localefwd.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/clocale \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/locale.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/stdio.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/iosfwd \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/cctype \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/ctype.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/ostream_insert.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/cxxabi_forced.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_function.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/backward/binders.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/range_access.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/initializer_list \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/basic_string.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/ext/atomicity.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/gthr.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/errno.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/ext/alloc_traits.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/alloc_traits.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/ext/string_conversions.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/cstdlib \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/lib/gcc/x86_64-w64-mingw32/5.4.0/include-fixed/limits.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/lib/gcc/x86_64-w64-mingw32/5.4.0/include-fixed/syslimits.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/limits.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/malloc.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/cstdio \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/cerrno \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/functional_hash.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/hash_bytes.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/basic_string.tcc \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/uses_allocator.h \
- D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_multimap.h \
- G:/my_program/cpp/Breakout/include/GameUtil/Texture.h \
- G:/my_program/cpp/Breakout/include/GameUtil/Shader.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/vector \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_construct.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_uninitialized.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_vector.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_bvector.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/vector.tcc \
+ G:/my_program/cpp/Breakout/include/GameUtil/GameLevel.h \
+ G:/my_program/cpp/Breakout/include/GameUtil/GameObject.h \
  G:/my_program/cpp/Breakout/include/glm/glm.hpp \
  G:/my_program/cpp/Breakout/include/glm/detail/_fixes.hpp \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/cmath \
@@ -251,6 +244,9 @@ src/GameUtil/CMakeFiles/GameUtil.dir/Game.cpp.obj: \
  G:/my_program/cpp/Breakout/include/glm/detail/type_half.inl \
  G:/my_program/cpp/Breakout/include/glm/integer.hpp \
  G:/my_program/cpp/Breakout/include/glm/detail/func_integer.inl \
+ G:/my_program/cpp/Breakout/include/GameUtil/Texture.h \
+ G:/my_program/cpp/Breakout/include/GameUtil/SpriteRenderer.h \
+ G:/my_program/cpp/Breakout/include/GameUtil/Shader.h \
  G:/my_program/cpp/Breakout/include/glm/gtc/type_ptr.hpp \
  G:/my_program/cpp/Breakout/include/glm/gtc/quaternion.hpp \
  G:/my_program/cpp/Breakout/include/glm/gtc/constants.hpp \
@@ -311,6 +307,7 @@ src/GameUtil/CMakeFiles/GameUtil.dir/Game.cpp.obj: \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/locale_classes.tcc \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/system_error \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/stdexcept \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/streambuf \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/streambuf.tcc \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/basic_ios.h \
@@ -332,4 +329,16 @@ src/GameUtil/CMakeFiles/GameUtil.dir/Game.cpp.obj: \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/sstream \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/sstream.tcc \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/iostream \
- G:/my_program/cpp/Breakout/include/GameUtil/SpriteRenderer.h
+ G:/my_program/cpp/Breakout/include/GameUtil/ResourceManager.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/map \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_tree.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/ext/aligned_buffer.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_map.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/tuple \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/utility \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_relops.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/array \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/uses_allocator.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_multimap.h \
+ G:/my_program/cpp/Breakout/include/GameUtil/stb_image.h \
+ G:/my_program/cpp/Breakout/include/GLFW/glfw3.h

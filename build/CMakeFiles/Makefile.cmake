@@ -53,6 +53,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "G:/my_program/cpp/Breakout/src/GLFW/CMake/glfw3Config.cmake.in"
   "G:/my_program/cpp/Breakout/src/GLFW/CMakeLists.txt"
   "G:/my_program/cpp/Breakout/src/GLFW/src/CMakeLists.txt"
+  "G:/my_program/cpp/Breakout/src/Game/CMakeLists.txt"
   "G:/my_program/cpp/Breakout/src/GameUtil/CMakeLists.txt"
   "G:/my_program/cpp/Breakout/src/glad/CMakeLists.txt"
   )
@@ -75,6 +76,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/GLFW/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/GameUtil/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Game/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Application/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -85,5 +87,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/GLFW/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
   "src/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   "src/GameUtil/CMakeFiles/GameUtil.dir/DependInfo.cmake"
+  "src/Game/CMakeFiles/Game.dir/DependInfo.cmake"
   "src/Application/CMakeFiles/Application.dir/DependInfo.cmake"
   )

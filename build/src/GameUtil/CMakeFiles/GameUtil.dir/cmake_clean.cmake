@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GameUtil.dir/Game.cpp.obj"
   "CMakeFiles/GameUtil.dir/Game.cpp.obj.d"
+  "CMakeFiles/GameUtil.dir/GameLevel.cpp.obj"
+  "CMakeFiles/GameUtil.dir/GameLevel.cpp.obj.d"
+  "CMakeFiles/GameUtil.dir/GameObject.cpp.obj"
+  "CMakeFiles/GameUtil.dir/GameObject.cpp.obj.d"
+  "CMakeFiles/GameUtil.dir/GameWindow.cpp.obj"
+  "CMakeFiles/GameUtil.dir/GameWindow.cpp.obj.d"
   "CMakeFiles/GameUtil.dir/ResourceManager.cpp.obj"
   "CMakeFiles/GameUtil.dir/ResourceManager.cpp.obj.d"
   "CMakeFiles/GameUtil.dir/Shader.cpp.obj"

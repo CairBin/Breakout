@@ -7,8 +7,6 @@
 
 namespace GameUtil
 {
-    std::map<std::string, Texture2d> ResourceManager::Textures;
-    std::map<std::string, Shader> ResourceManager::Shaders;
 
     ResourceManager::ResourceManager() {}
 

@@ -2,10 +2,12 @@
 #include "GameUtil/stb_image.h"
 #include "GameUtil/ResourceManager.h"
 #include "GameUtil/SpriteRenderer.h"
-namespace GameUtil{
-    SpriteRenderer *Renderer;
-    Game::Game(GLuint width, GLuint height)
-        : State(GameState::GAME_ACTIVE), Keys(), Width(width), Height(height)
+#include "GLFW/glfw3.h"
+
+namespace GameUtil
+{
+    Game::Game(GLuint width, GLuint height, std::string resourcePath)
+        : State(GameState::GAME_ACTIVE), Keys(), Width(width), Height(height), ResourcePath(resourcePath), SourceManager(nullptr)
     {
     }
 
@@ -13,31 +15,14 @@ namespace GameUtil{
     {
     }
 
-    void Game::Initialize()
+    std::string Game::GetResourceFilePath(const std::string &filename)
     {
-        ResourceManager::LoadShader("G:/my_program/cpp/Breakout/resource/shaders/spriteShader.vs", "G:/my_program/cpp/Breakout/resource/shaders/spriteShader.fs", nullptr, "sprite");
-        // 配置着色器
-        glm::mat4 projection = glm::ortho(0.0f, static_cast<GLfloat>(this->Width),
-                                          static_cast<GLfloat>(this->Height), 0.0f, -1.0f, 1.0f);
-        ResourceManager::GetShader("sprite").Use().setInt("image", 0);
-        ResourceManager::GetShader("sprite").setMat4("projection", projection);
-        // 设置专用于渲染的控制
-        Renderer = new SpriteRenderer(ResourceManager::GetShader("sprite"));
-        // 加载纹理
-        ResourceManager::LoadTexture("G:/my_program/cpp/Breakout/resource/textures/awesomeface.png", GL_TRUE, "face");
+        return this->ResourcePath + filename;
     }
 
-    void Game::Update(GLfloat dt)
+    void Game::SetResourceManager(ResourceManager &sourceManager)
     {
+        this->SourceManager = &sourceManager;
     }
 
-    void Game::ProcessInput(GLfloat dt)
-    {
-    }
-
-    void Game::Render()
-    {
-        Renderer->DrawSprite(ResourceManager::GetTexture("face"),
-                             glm::vec2(200, 200), glm::vec2(300, 400), 45.0f, glm::vec3(0.0f, 1.0f, 0.0f));
-    }
 }
