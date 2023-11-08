@@ -92,6 +92,7 @@ Application_EXTERNAL_OBJECTS =
 
 G:/my_program/cpp/Breakout/bin/Application.exe: src/Application/CMakeFiles/Application.dir/main.cpp.obj
 G:/my_program/cpp/Breakout/bin/Application.exe: src/Application/CMakeFiles/Application.dir/build.make
+G:/my_program/cpp/Breakout/bin/Application.exe: G:/my_program/cpp/Breakout/lib/libGame.dll.a
 G:/my_program/cpp/Breakout/bin/Application.exe: G:/my_program/cpp/Breakout/lib/libGameUtil.dll.a
 G:/my_program/cpp/Breakout/bin/Application.exe: G:/my_program/cpp/Breakout/lib/libglad.dll.a
 G:/my_program/cpp/Breakout/bin/Application.exe: src/Application/CMakeFiles/Application.dir/linkLibs.rsp

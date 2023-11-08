@@ -1,10 +1,16 @@
 #include "GameUtil/GameUtil.h"
+#include "Game/Ball.h"
 
 class GameCore:GameUtil::Game{
 private:
+    const GLfloat PLAYER_VELOCITY = 500.0f; //用户的初始速度
+    const GLfloat BALL_RADIUS = 12.5f;      //球的半径
+    const glm::vec2 INITIAL_BALL_VELOCITY =
+         glm::vec2(100.0f, -350.0f);        //球的初始速度
+
     GameUtil::SpriteRenderer *Renderer;
     GameUtil::GameObject *Player;
-    const GLfloat PLAYER_VELOCITY = 500.0f;
+    Breakout::Ball *BallObj;
 
 private:
     std::vector<GameUtil::GameLevel> Levels;
@@ -47,7 +53,7 @@ public:
         GameUtil::GameLevel one;
         one.Load(GetResourceFilePath("levels/standard.lv").c_str(), this->Width, this->Height / 2,SourceManager);
         GameUtil::GameLevel two;
-        two.Load(GetResourceFilePath("fewSmallGaps.lv").c_str(), this->Width, this->Height / 2,SourceManager);
+        two.Load(GetResourceFilePath("levels/fewSmallGaps.lv").c_str(), this->Width, this->Height / 2, SourceManager);
         GameUtil::GameLevel three;
         three.Load(GetResourceFilePath("levels/spaceInvader.lv").c_str(), this->Width, this->Height / 2,SourceManager);
         GameUtil::GameLevel four;
@@ -57,10 +63,23 @@ public:
         this->Levels.push_back(three);
         this->Levels.push_back(four);
         this->Level = 0;
+
+
+        //初始化小球
+        glm::vec2 ballPos = playerPos + glm::vec2(PLAYER_SIZE.x / 2 - BALL_RADIUS,
+                                                   -BALL_RADIUS * 2);
+        BallObj = new Breakout::Ball(ballPos,
+            BALL_RADIUS,
+            INITIAL_BALL_VELOCITY,
+            SourceManager->GetTexture("face")
+        );
+
     }
 
     void Update(GLfloat dt)
     {
+        //移动小球
+        BallObj->Move(dt, this->Width);
     }
 
     void ProcessInput(GLfloat dt)
@@ -68,17 +87,24 @@ public:
         if (this->State == GameUtil::GameState::GAME_ACTIVE)
         {
             float velocity = PLAYER_VELOCITY * dt;
-            // move playerboard
+            
             if (this->Keys[GLFW_KEY_A])
             {
                 if (Player->Position.x >= 0.0f)
                     Player->Position.x -= velocity;
+                if (BallObj->Stuck)
+                    BallObj->Position.x -= velocity;
             }
             if (this->Keys[GLFW_KEY_D])
             {
                 if (Player->Position.x <= this->Width - Player->Size.x)
                     Player->Position.x += velocity;
+                if (BallObj->Stuck)
+                    BallObj->Position.x += velocity;
             }
+
+            if (this->Keys[GLFW_KEY_SPACE])
+                BallObj->Stuck = false;
         }
     }
 
@@ -94,6 +120,7 @@ public:
 
             // 绘制角色
             Player->Draw(*Renderer);
+            BallObj->Draw(*Renderer);
         }
     }
 };

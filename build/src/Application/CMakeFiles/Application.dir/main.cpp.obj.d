@@ -344,4 +344,5 @@ src/Application/CMakeFiles/Application.dir/main.cpp.obj: \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/uses_allocator.h \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_multimap.h \
  G:/my_program/cpp/Breakout/include/GameUtil/ResourceManager.h \
- G:/my_program/cpp/Breakout/include/GameUtil/EntryPoint.h
+ G:/my_program/cpp/Breakout/include/GameUtil/EntryPoint.h \
+ G:/my_program/cpp/Breakout/include/Game/Ball.h

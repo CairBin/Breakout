@@ -346,7 +346,8 @@ src/Application/CMakeFiles/Application.dir/main.cpp.obj: G:/my_program/cpp/Break
   D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/uses_allocator.h \
   D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_multimap.h \
   G:/my_program/cpp/Breakout/include/GameUtil/ResourceManager.h \
-  G:/my_program/cpp/Breakout/include/GameUtil/EntryPoint.h
+  G:/my_program/cpp/Breakout/include/GameUtil/EntryPoint.h \
+  G:/my_program/cpp/Breakout/include/Game/Ball.h
 
 
 G:/my_program/cpp/Breakout/include/GameUtil/GameLevel.h:
@@ -670,6 +671,8 @@ G:/my_program/cpp/Breakout/include/glm/common.hpp:
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/cstddef:
 
 G:/my_program/cpp/Breakout/include/glm/simd/platform.h:
+
+G:/my_program/cpp/Breakout/include/Game/Ball.h:
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/climits:
 

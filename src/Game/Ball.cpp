@@ -1,6 +1,6 @@
 #include "Game/Ball.h"
 
-namespace Game{
+namespace Breakout{
 
     Ball::Ball()
         : GameObject(), Radius(12.5f), Stuck(true){}

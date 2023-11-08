@@ -4,8 +4,8 @@
 #include "GameUtil/GameObject.h"
 #include "GameUtil/Texture.h"
 
-namespace Game{
-    class Ball:GameUtil::GameObject{
+namespace Breakout{
+    class Ball:public GameUtil::GameObject{
     public:
         GLfloat Radius;
         GLboolean Stuck;

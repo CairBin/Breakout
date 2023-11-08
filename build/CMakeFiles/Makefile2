@@ -354,6 +354,7 @@ src/Game/CMakeFiles/Game.dir/clean:
 
 # All Build rule for target.
 src/Application/CMakeFiles/Application.dir/all: src/glad/CMakeFiles/glad.dir/all
+src/Application/CMakeFiles/Application.dir/all: src/Game/CMakeFiles/Game.dir/all
 src/Application/CMakeFiles/Application.dir/all: src/GameUtil/CMakeFiles/GameUtil.dir/all
 	$(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\Application.dir\build.make src/Application/CMakeFiles/Application.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\Application.dir\build.make src/Application/CMakeFiles/Application.dir/build
@@ -362,7 +363,7 @@ src/Application/CMakeFiles/Application.dir/all: src/GameUtil/CMakeFiles/GameUtil
 
 # Build rule for subdir invocation for target.
 src/Application/CMakeFiles/Application.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\my_program\cpp\Breakout\build\CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\my_program\cpp\Breakout\build\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Application/CMakeFiles/Application.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start G:\my_program\cpp\Breakout\build\CMakeFiles 0
 .PHONY : src/Application/CMakeFiles/Application.dir/rule
