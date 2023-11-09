@@ -16,6 +16,96 @@ private:
     std::vector<GameUtil::GameLevel> Levels;
     GLuint Level;
 
+private:
+    void DoCollisions(){
+        for(GameUtil::GameObject& box:this->Levels[this->Level].Bricks){
+            if(!box.Destroyed){
+                GameUtil::Collision::CollisionResult coll = CheckCollision(*BallObj, box);
+                if(std::get<0>(coll)){
+                    if (!box.IsSolid)
+                        box.Destroyed = GL_TRUE;
+
+                    GameUtil::DirectState2d dir = std::get<1>(coll);
+                    glm::vec2 diffVector = std::get<2>(coll);
+                    if (dir == GameUtil::DirectState2d::LEFT || dir==GameUtil::DirectState2d::RIGHT)
+                    {
+                        BallObj->Velocity.x = -BallObj->Velocity.x;
+                        GLfloat penetration = BallObj->Radius - std::abs(diffVector);
+                        if(dir==GameUtil::DirectState2d::LEFT)
+                            BallObj->Position.x += penetration;
+                        else
+                            BallObj->Position.x -= penetration;
+                    }else{
+                        BallObj->Velocity.y = -BallObj->Velocity.y;
+                        GLfloat peneration = BallObj->Radius - std::abs(diffVector.y);
+                        if(dir==GameUtil::DirectState2d::UP)
+                            BallObj->Position.y -= peneration;
+                        else
+                            BallObj->Position.y += peneration;
+                    }
+                }
+            }
+        }
+
+        GameUtil::Collision::CollisionResult result = CheckCollision(*BallObj, *Player);
+        if(!BallObj->Stuck && std::get<0>(result)){
+            GLfloat centerBoard = Player->Position.x + Player->Size.x / 2;
+            GLfloat distance = (BallObj->Position.x + BallObj->Radius) - centerBoard;
+            GLfloat percentage = distance / (Player->Size.x / 2);
+            // 依据结果移动
+            GLfloat strength = 2.0f;
+            glm::vec2 oldVelocity = BallObj->Velocity;
+            BallObj->Velocity.x = INITIAL_BALL_VELOCITY.x * percentage * strength;
+            BallObj->Velocity.y = -1*abs(BallObj->Velocity.y);
+            BallObj->Velocity = glm::normalize(BallObj->Velocity) * glm::length(oldVelocity);
+        }
+    }
+
+    GameUtil::DirectState2d VectorDirection(glm::vec2 target)
+    {
+        glm::vec2 compass[] = {
+            glm::vec2(0.0f, 1.0f),
+            glm::vec2(1.0f, 0.0f),
+            glm::vec2(0.0f, -1.0f),
+            glm::vec2(-1.0f, 0.0f)};
+        GLfloat max = 0.0f;
+        GLuint bestMatch = -1;
+        for (GLuint i = 0; i < 4;i++){
+            GLfloat dotProduct = glm::dot(glm::normalize(target), compass[i]);
+            if(dotProduct>max){
+                max = dotProduct;
+                bestMatch = i;
+            }
+
+        }
+
+        return (GameUtil::DirectState2d)bestMatch;
+    }
+
+    GameUtil::Collision::CollisionResult CheckCollision(Breakout::Ball& a,GameUtil::GameObject& b)
+    {
+        auto clamp = [](GLfloat value, GLfloat min, GLfloat max)
+        {
+            return std::max(min, std::min(max, value));
+        };
+
+        glm::vec2 center(a.Position + a.Radius);
+        glm::vec2 aabb_half_extents(b.Size.x / 2, b.Size.y / 2);
+        glm::vec2 aabb_center(
+            b.Position.x + aabb_half_extents.x,
+            b.Position.y + aabb_half_extents.y);
+
+        glm::vec2 difference = center - aabb_center;
+        glm::vec2 clamped = glm::clamp(difference, -aabb_half_extents, aabb_half_extents);
+        glm::vec2 closest = aabb_center + clamped;
+        difference = closest - center;
+    
+        if(glm::length(difference)<a.Radius)
+            return std::make_tuple(GL_TRUE, VectorDirection(difference), difference);
+
+        return std::make_tuple(GL_FALSE, GameUtil::DirectState2d::UP, glm::vec2(0, 0));
+    }
+
 public:
     GameCore(GLuint width, GLuint height, std::string resourcePath)
     : Game(width,height,resourcePath){}
@@ -80,6 +170,12 @@ public:
     {
         //移动小球
         BallObj->Move(dt, this->Width);
+
+        //碰撞检测
+        this->DoCollisions();
+        if(BallObj->Position.y >= this->Height){
+            
+        }
     }
 
     void ProcessInput(GLfloat dt)

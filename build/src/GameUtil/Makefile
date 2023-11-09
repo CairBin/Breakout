@@ -174,6 +174,30 @@ GameUtil/fast:
 	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/build
 .PHONY : GameUtil/fast
 
+Collision.obj: Collision.cpp.obj
+.PHONY : Collision.obj
+
+# target to build an object file
+Collision.cpp.obj:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/Collision.cpp.obj
+.PHONY : Collision.cpp.obj
+
+Collision.i: Collision.cpp.i
+.PHONY : Collision.i
+
+# target to preprocess a source file
+Collision.cpp.i:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/Collision.cpp.i
+.PHONY : Collision.cpp.i
+
+Collision.s: Collision.cpp.s
+.PHONY : Collision.s
+
+# target to generate assembly for a file
+Collision.cpp.s:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/Collision.cpp.s
+.PHONY : Collision.cpp.s
+
 Game.obj: Game.cpp.obj
 .PHONY : Game.obj
 
@@ -403,6 +427,9 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... GameUtil
+	@echo ... Collision.obj
+	@echo ... Collision.i
+	@echo ... Collision.s
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s

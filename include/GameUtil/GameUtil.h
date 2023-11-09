@@ -7,6 +7,8 @@
 #include "GameUtil/ResourceManager.h"
 #include "GameUtil/GameObject.h"
 #include "GameUtil/Game.h"
+#include "GameUtil/Collision.h"
+#include "GameUtil/Direction.h"
 
 #include "GameUtil/EntryPoint.h"
 
