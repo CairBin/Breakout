@@ -1,5 +1,6 @@
 #include "GameUtil/GameWindow.h"
 #include "GameUtil/ResourceManager.h"
+#include "GameUtil/Audio.h"
 #include <iostream>
 
 namespace GameUtil{
@@ -99,6 +100,7 @@ namespace GameUtil{
         glEnable(GL_BLEND);
         glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
         GameCore->Initialize();
+        Audio::Init();
     }
 
     void GlfwGameWindow::MainLoop(void* param){
@@ -114,6 +116,7 @@ namespace GameUtil{
 
             GameCore->ProcessInput(deltaTime);
             GameCore->Update(deltaTime);
+            Audio::Update();
 
             glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
             glClear(GL_COLOR_BUFFER_BIT);
@@ -124,6 +127,7 @@ namespace GameUtil{
     }
 
     GlfwGameWindow::~GlfwGameWindow(){
+        Audio::Close();
         glfwTerminate();
     }
 }

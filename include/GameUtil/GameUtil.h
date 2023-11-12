@@ -9,6 +9,9 @@
 #include "GameUtil/Game.h"
 #include "GameUtil/Collision.h"
 #include "GameUtil/Direction.h"
+#include "GameUtil/Particle.h"
+#include "GameUtil/PostProcessor.h"
+#include "GameUtil/Audio.h"
 
 #include "GameUtil/EntryPoint.h"
 

@@ -225,7 +225,7 @@ src/GLFW/CMakeFiles/uninstall.dir/clean:
 src/GLFW/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\GLFW\src\CMakeFiles\glfw.dir\build.make src/GLFW/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\GLFW\src\CMakeFiles\glfw.dir\build.make src/GLFW/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43 "Built target glfw"
 .PHONY : src/GLFW/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -251,7 +251,7 @@ src/GLFW/src/CMakeFiles/glfw.dir/clean:
 src/GLFW/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\GLFW\src\CMakeFiles\update_mappings.dir\build.make src/GLFW/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\GLFW\src\CMakeFiles\update_mappings.dir\build.make src/GLFW/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=40 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=44 "Built target update_mappings"
 .PHONY : src/GLFW/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -277,7 +277,7 @@ src/GLFW/src/CMakeFiles/update_mappings.dir/clean:
 src/glad/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\glad\CMakeFiles\glad.dir\build.make src/glad/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\glad\CMakeFiles\glad.dir\build.make src/glad/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=16,17 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=20,21 "Built target glad"
 .PHONY : src/glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
@@ -303,12 +303,12 @@ src/glad/CMakeFiles/glad.dir/clean:
 src/GameUtil/CMakeFiles/GameUtil.dir/all: src/glad/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15 "Built target GameUtil"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target GameUtil"
 .PHONY : src/GameUtil/CMakeFiles/GameUtil.dir/all
 
 # Build rule for subdir invocation for target.
 src/GameUtil/CMakeFiles/GameUtil.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\my_program\cpp\Breakout\build\CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\my_program\cpp\Breakout\build\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/GameUtil/CMakeFiles/GameUtil.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start G:\my_program\cpp\Breakout\build\CMakeFiles 0
 .PHONY : src/GameUtil/CMakeFiles/GameUtil.dir/rule
@@ -330,12 +330,12 @@ src/Game/CMakeFiles/Game.dir/all: src/glad/CMakeFiles/glad.dir/all
 src/Game/CMakeFiles/Game.dir/all: src/GameUtil/CMakeFiles/GameUtil.dir/all
 	$(MAKE) $(MAKESILENT) -f src\Game\CMakeFiles\Game.dir\build.make src/Game/CMakeFiles/Game.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\Game\CMakeFiles\Game.dir\build.make src/Game/CMakeFiles/Game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=3,4 "Built target Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=3,4,5 "Built target Game"
 .PHONY : src/Game/CMakeFiles/Game.dir/all
 
 # Build rule for subdir invocation for target.
 src/Game/CMakeFiles/Game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\my_program\cpp\Breakout\build\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\my_program\cpp\Breakout\build\CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Game/CMakeFiles/Game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start G:\my_program\cpp\Breakout\build\CMakeFiles 0
 .PHONY : src/Game/CMakeFiles/Game.dir/rule
@@ -354,8 +354,8 @@ src/Game/CMakeFiles/Game.dir/clean:
 
 # All Build rule for target.
 src/Application/CMakeFiles/Application.dir/all: src/glad/CMakeFiles/glad.dir/all
-src/Application/CMakeFiles/Application.dir/all: src/GameUtil/CMakeFiles/GameUtil.dir/all
 src/Application/CMakeFiles/Application.dir/all: src/Game/CMakeFiles/Game.dir/all
+src/Application/CMakeFiles/Application.dir/all: src/GameUtil/CMakeFiles/GameUtil.dir/all
 	$(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\Application.dir\build.make src/Application/CMakeFiles/Application.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\Application.dir\build.make src/Application/CMakeFiles/Application.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\my_program\cpp\Breakout\build\CMakeFiles --progress-num=1,2 "Built target Application"
@@ -363,7 +363,7 @@ src/Application/CMakeFiles/Application.dir/all: src/Game/CMakeFiles/Game.dir/all
 
 # Build rule for subdir invocation for target.
 src/Application/CMakeFiles/Application.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\my_program\cpp\Breakout\build\CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\my_program\cpp\Breakout\build\CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Application/CMakeFiles/Application.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start G:\my_program\cpp\Breakout\build\CMakeFiles 0
 .PHONY : src/Application/CMakeFiles/Application.dir/rule

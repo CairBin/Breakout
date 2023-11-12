@@ -3,12 +3,12 @@
 namespace Breakout{
 
     Ball::Ball()
-        : GameObject(), Radius(12.5f), Stuck(true){}
+        : GameObject(), Radius(12.5f), Stuck(true),Sticky(false),PassThrough(false){}
 
     Ball::Ball(glm::vec2 pos, float radius, glm::vec2 velocity, GameUtil::Texture2d sprite)
         : GameObject(pos, glm::vec2(radius * 2.0f, radius * 2.0f),
                      sprite, glm::vec3(1.0f), velocity),
-          Radius(radius), Stuck(true) {}
+          Radius(radius), Stuck(true), Sticky(false), PassThrough(false) {}
 
     glm::vec2 Ball::Move(GLfloat dt,GLuint windowWidth)
     {
@@ -36,5 +36,7 @@ namespace Breakout{
         this->Position = position;
         this->Velocity = Velocity;
         this->Stuck = true;
+        this->Sticky = false;
+        this->PassThrough = false;
     }
 }

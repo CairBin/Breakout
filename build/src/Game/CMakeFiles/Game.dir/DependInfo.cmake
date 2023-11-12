@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "G:/my_program/cpp/Breakout/src/Game/Ball.cpp" "src/Game/CMakeFiles/Game.dir/Ball.cpp.obj" "gcc" "src/Game/CMakeFiles/Game.dir/Ball.cpp.obj.d"
+  "G:/my_program/cpp/Breakout/src/Game/PowerUp.cpp" "src/Game/CMakeFiles/Game.dir/PowerUp.cpp.obj" "gcc" "src/Game/CMakeFiles/Game.dir/PowerUp.cpp.obj.d"
   )
 
 # Targets to which this target links.

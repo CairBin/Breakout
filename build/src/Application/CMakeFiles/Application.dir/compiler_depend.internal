@@ -348,6 +348,37 @@ src/Application/CMakeFiles/Application.dir/main.cpp.obj
  D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_multimap.h
  G:/my_program/cpp/Breakout/include/GameUtil/ResourceManager.h
  G:/my_program/cpp/Breakout/include/GameUtil/Collision.h
+ G:/my_program/cpp/Breakout/include/GameUtil/Direction.h
+ G:/my_program/cpp/Breakout/include/GameUtil/Particle.h
+ G:/my_program/cpp/Breakout/include/GameUtil/PostProcessor.h
  G:/my_program/cpp/Breakout/include/GameUtil/EntryPoint.h
  G:/my_program/cpp/Breakout/include/Game/Ball.h
+ G:/my_program/cpp/Breakout/include/Game/PowerUp.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/algorithm
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_algo.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/algorithmfwd.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_heap.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_tempbuf.h
+ D:/Program Files (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/uniform_int_dist.h
+ G:/my_program/cpp/Breakout/include/irrklang/irrKlang.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_irrKlangTypes.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_vec3d.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_IRefCounted.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_IVirtualRefCounted.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_ESoundOutputDrivers.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_ESoundEngineOptions.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_EStreamModes.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_SAudioStreamFormat.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundEngine.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundSource.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_ISound.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundEffectControl.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_IFileFactory.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundMixedOutputReceiver.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_IAudioStream.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_IAudioStreamLoader.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_IFileReader.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundStopEventReceiver.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundDeviceList.h
+ G:/my_program/cpp/Breakout/include/irrklang/ik_IAudioRecorder.h
 

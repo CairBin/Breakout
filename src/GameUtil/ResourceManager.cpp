@@ -32,12 +32,25 @@ namespace GameUtil
         return Textures[name];
     }
 
+    Audio ResourceManager::LoadAudio(const GLchar* file,std::string name){
+        Audio audio(file);
+        Audios[name] = audio;
+        return Audios[name];
+    }
+
+    Audio ResourceManager::GetAudio(std::string name){
+        return Audios[name];
+    }
+
+
     void ResourceManager::Clear()
     {
         for (auto iter : Shaders)
             glDeleteProgram(iter.second.Id);
         for (auto iter : Textures)
             glDeleteTextures(1, &iter.second.ID);
+
+        Audios.clear();
     }
 
     Shader ResourceManager::loadShaderFromFile(const GLchar *vShader, const GLchar *fShader, const GLchar *gShader)

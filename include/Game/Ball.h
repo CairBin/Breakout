@@ -9,6 +9,7 @@ namespace Breakout{
     public:
         GLfloat Radius;
         GLboolean Stuck;
+        GLboolean Sticky, PassThrough;
         Ball();
         Ball(glm::vec2 pos, GLfloat radius, glm::vec2 velocity, GameUtil::Texture2d sprite);
 

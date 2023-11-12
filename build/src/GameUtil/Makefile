@@ -198,6 +198,30 @@ Collision.cpp.s:
 	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/Collision.cpp.s
 .PHONY : Collision.cpp.s
 
+Direction.obj: Direction.cpp.obj
+.PHONY : Direction.obj
+
+# target to build an object file
+Direction.cpp.obj:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/Direction.cpp.obj
+.PHONY : Direction.cpp.obj
+
+Direction.i: Direction.cpp.i
+.PHONY : Direction.i
+
+# target to preprocess a source file
+Direction.cpp.i:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/Direction.cpp.i
+.PHONY : Direction.cpp.i
+
+Direction.s: Direction.cpp.s
+.PHONY : Direction.s
+
+# target to generate assembly for a file
+Direction.cpp.s:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/Direction.cpp.s
+.PHONY : Direction.cpp.s
+
 Game.obj: Game.cpp.obj
 .PHONY : Game.obj
 
@@ -293,6 +317,54 @@ GameWindow.s: GameWindow.cpp.s
 GameWindow.cpp.s:
 	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/GameWindow.cpp.s
 .PHONY : GameWindow.cpp.s
+
+Particle.obj: Particle.cpp.obj
+.PHONY : Particle.obj
+
+# target to build an object file
+Particle.cpp.obj:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/Particle.cpp.obj
+.PHONY : Particle.cpp.obj
+
+Particle.i: Particle.cpp.i
+.PHONY : Particle.i
+
+# target to preprocess a source file
+Particle.cpp.i:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/Particle.cpp.i
+.PHONY : Particle.cpp.i
+
+Particle.s: Particle.cpp.s
+.PHONY : Particle.s
+
+# target to generate assembly for a file
+Particle.cpp.s:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/Particle.cpp.s
+.PHONY : Particle.cpp.s
+
+PostProcessor.obj: PostProcessor.cpp.obj
+.PHONY : PostProcessor.obj
+
+# target to build an object file
+PostProcessor.cpp.obj:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/PostProcessor.cpp.obj
+.PHONY : PostProcessor.cpp.obj
+
+PostProcessor.i: PostProcessor.cpp.i
+.PHONY : PostProcessor.i
+
+# target to preprocess a source file
+PostProcessor.cpp.i:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/PostProcessor.cpp.i
+.PHONY : PostProcessor.cpp.i
+
+PostProcessor.s: PostProcessor.cpp.s
+.PHONY : PostProcessor.s
+
+# target to generate assembly for a file
+PostProcessor.cpp.s:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\GameUtil\CMakeFiles\GameUtil.dir\build.make src/GameUtil/CMakeFiles/GameUtil.dir/PostProcessor.cpp.s
+.PHONY : PostProcessor.cpp.s
 
 ResourceManager.obj: ResourceManager.cpp.obj
 .PHONY : ResourceManager.obj
@@ -430,6 +502,9 @@ help:
 	@echo ... Collision.obj
 	@echo ... Collision.i
 	@echo ... Collision.s
+	@echo ... Direction.obj
+	@echo ... Direction.i
+	@echo ... Direction.s
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s
@@ -442,6 +517,12 @@ help:
 	@echo ... GameWindow.obj
 	@echo ... GameWindow.i
 	@echo ... GameWindow.s
+	@echo ... Particle.obj
+	@echo ... Particle.i
+	@echo ... Particle.s
+	@echo ... PostProcessor.obj
+	@echo ... PostProcessor.i
+	@echo ... PostProcessor.s
 	@echo ... ResourceManager.obj
 	@echo ... ResourceManager.i
 	@echo ... ResourceManager.s

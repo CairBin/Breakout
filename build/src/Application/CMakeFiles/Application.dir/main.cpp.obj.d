@@ -345,5 +345,36 @@ src/Application/CMakeFiles/Application.dir/main.cpp.obj: \
  D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_multimap.h \
  G:/my_program/cpp/Breakout/include/GameUtil/ResourceManager.h \
  G:/my_program/cpp/Breakout/include/GameUtil/Collision.h \
+ G:/my_program/cpp/Breakout/include/GameUtil/Direction.h \
+ G:/my_program/cpp/Breakout/include/GameUtil/Particle.h \
+ G:/my_program/cpp/Breakout/include/GameUtil/PostProcessor.h \
  G:/my_program/cpp/Breakout/include/GameUtil/EntryPoint.h \
- G:/my_program/cpp/Breakout/include/Game/Ball.h
+ G:/my_program/cpp/Breakout/include/Game/Ball.h \
+ G:/my_program/cpp/Breakout/include/Game/PowerUp.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/algorithm \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_algo.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/algorithmfwd.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_heap.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_tempbuf.h \
+ D:/PROGRA~1/X86_64~1.0-R/mingw64/x86_64-w64-mingw32/include/c++/bits/uniform_int_dist.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/irrKlang.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_irrKlangTypes.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_vec3d.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_IRefCounted.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_IVirtualRefCounted.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_ESoundOutputDrivers.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_ESoundEngineOptions.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_EStreamModes.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_SAudioStreamFormat.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_ISoundEngine.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_ISoundSource.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_ISound.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_ISoundEffectControl.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_IFileFactory.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_ISoundMixedOutputReceiver.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_IAudioStream.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_IAudioStreamLoader.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_IFileReader.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_ISoundStopEventReceiver.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_ISoundDeviceList.h \
+ G:/my_program/cpp/Breakout/include/irrKlang/ik_IAudioRecorder.h

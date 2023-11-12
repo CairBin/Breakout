@@ -1,3 +1,6 @@
 [submodule "src/GLFW"]
 	path = src/GLFW
 	url = git@github.com:glfw/glfw.git
+[submodule "src/yse"]
+	path = src/yse
+	url = git@github.com:yvanvds/yse-soundengine.git

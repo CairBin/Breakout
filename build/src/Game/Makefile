@@ -198,6 +198,30 @@ Ball.cpp.s:
 	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\Game\CMakeFiles\Game.dir\build.make src/Game/CMakeFiles/Game.dir/Ball.cpp.s
 .PHONY : Ball.cpp.s
 
+PowerUp.obj: PowerUp.cpp.obj
+.PHONY : PowerUp.obj
+
+# target to build an object file
+PowerUp.cpp.obj:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\Game\CMakeFiles\Game.dir\build.make src/Game/CMakeFiles/Game.dir/PowerUp.cpp.obj
+.PHONY : PowerUp.cpp.obj
+
+PowerUp.i: PowerUp.cpp.i
+.PHONY : PowerUp.i
+
+# target to preprocess a source file
+PowerUp.cpp.i:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\Game\CMakeFiles\Game.dir\build.make src/Game/CMakeFiles/Game.dir/PowerUp.cpp.i
+.PHONY : PowerUp.cpp.i
+
+PowerUp.s: PowerUp.cpp.s
+.PHONY : PowerUp.s
+
+# target to generate assembly for a file
+PowerUp.cpp.s:
+	cd /d G:\my_program\cpp\Breakout\build && $(MAKE) $(MAKESILENT) -f src\Game\CMakeFiles\Game.dir\build.make src/Game/CMakeFiles/Game.dir/PowerUp.cpp.s
+.PHONY : PowerUp.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -214,6 +238,9 @@ help:
 	@echo ... Ball.obj
 	@echo ... Ball.i
 	@echo ... Ball.s
+	@echo ... PowerUp.obj
+	@echo ... PowerUp.i
+	@echo ... PowerUp.s
 .PHONY : help
 
 

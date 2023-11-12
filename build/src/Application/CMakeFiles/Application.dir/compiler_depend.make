@@ -347,8 +347,39 @@ src/Application/CMakeFiles/Application.dir/main.cpp.obj: G:/my_program/cpp/Break
   D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_multimap.h \
   G:/my_program/cpp/Breakout/include/GameUtil/ResourceManager.h \
   G:/my_program/cpp/Breakout/include/GameUtil/Collision.h \
+  G:/my_program/cpp/Breakout/include/GameUtil/Direction.h \
+  G:/my_program/cpp/Breakout/include/GameUtil/Particle.h \
+  G:/my_program/cpp/Breakout/include/GameUtil/PostProcessor.h \
   G:/my_program/cpp/Breakout/include/GameUtil/EntryPoint.h \
-  G:/my_program/cpp/Breakout/include/Game/Ball.h
+  G:/my_program/cpp/Breakout/include/Game/Ball.h \
+  G:/my_program/cpp/Breakout/include/Game/PowerUp.h \
+  D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/algorithm \
+  D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_algo.h \
+  D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/algorithmfwd.h \
+  D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_heap.h \
+  D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_tempbuf.h \
+  D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/uniform_int_dist.h \
+  G:/my_program/cpp/Breakout/include/irrklang/irrKlang.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_irrKlangTypes.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_vec3d.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_IRefCounted.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_IVirtualRefCounted.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_ESoundOutputDrivers.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_ESoundEngineOptions.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_EStreamModes.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_SAudioStreamFormat.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundEngine.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundSource.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_ISound.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundEffectControl.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_IFileFactory.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundMixedOutputReceiver.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_IAudioStream.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_IAudioStreamLoader.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_IFileReader.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundStopEventReceiver.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundDeviceList.h \
+  G:/my_program/cpp/Breakout/include/irrklang/ik_IAudioRecorder.h
 
 
 G:/my_program/cpp/Breakout/include/GameUtil/GameLevel.h:
@@ -390,6 +421,8 @@ D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_6
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
+
+D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/algorithm:
 
 G:/my_program/cpp/Breakout/include/glm/ext/vector_float2_precision.hpp:
 
@@ -469,6 +502,8 @@ D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_6
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/predefined_ops.h:
 
+G:/my_program/cpp/Breakout/include/Game/PowerUp.h:
+
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/move.h:
 
 G:/my_program/cpp/Breakout/include/glm/mat4x2.hpp:
@@ -476,6 +511,8 @@ G:/my_program/cpp/Breakout/include/glm/mat4x2.hpp:
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/cwchar:
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/postypes.h:
+
+G:/my_program/cpp/Breakout/include/GameUtil/PostProcessor.h:
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/concept_check.h:
 
@@ -554,6 +591,8 @@ D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_6
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/iosfwd:
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/cctype:
+
+D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_heap.h:
 
 G:/my_program/cpp/Breakout/include/glm/fwd.hpp:
 
@@ -635,6 +674,8 @@ D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_6
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/vector:
 
+G:/my_program/cpp/Breakout/include/irrklang/ik_IAudioRecorder.h:
+
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/locale_classes.tcc:
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_construct.h:
@@ -656,6 +697,8 @@ G:/my_program/cpp/Breakout/include/glm/ext/matrix_double2x2_precision.hpp:
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/vector.tcc:
 
 G:/my_program/cpp/Breakout/include/GameUtil/GameObject.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_EStreamModes.h:
 
 G:/my_program/cpp/Breakout/include/glm/detail/_fixes.hpp:
 
@@ -708,6 +751,8 @@ D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_6
 G:/my_program/cpp/Breakout/include/glm/gtc/constants.inl:
 
 G:/my_program/cpp/Breakout/include/glm/ext/vector_bool2_precision.hpp:
+
+D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_algo.h:
 
 G:/my_program/cpp/Breakout/include/glm/ext/vector_float2.hpp:
 
@@ -773,6 +818,8 @@ G:/my_program/cpp/Breakout/include/glm/ext/vector_float4.hpp:
 
 G:/my_program/cpp/Breakout/include/glm/ext/vector_float4_precision.hpp:
 
+G:/my_program/cpp/Breakout/include/irrklang/ik_vec3d.h:
+
 G:/my_program/cpp/Breakout/include/glm/ext/vector_double4_precision.hpp:
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/ostream:
@@ -818,6 +865,8 @@ G:/my_program/cpp/Breakout/include/glm/ext/matrix_float2x4.hpp:
 G:/my_program/cpp/Breakout/include/glm/ext/matrix_float2x4_precision.hpp:
 
 G:/my_program/cpp/Breakout/include/glm/ext/matrix_double3x2.hpp:
+
+G:/my_program/cpp/Breakout/include/irrklang/irrKlang.h:
 
 G:/my_program/cpp/Breakout/include/glm/detail/type_mat3x2.hpp:
 
@@ -929,6 +978,8 @@ G:/my_program/cpp/Breakout/include/glm/ext/scalar_constants.hpp:
 
 G:/my_program/cpp/Breakout/include/glm/ext/scalar_constants.inl:
 
+G:/my_program/cpp/Breakout/include/GameUtil/Direction.h:
+
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/cwctype:
 
 G:/my_program/cpp/Breakout/include/glm/gtc/matrix_transform.hpp:
@@ -942,6 +993,8 @@ G:/my_program/cpp/Breakout/include/glm/ext/quaternion_geometric.inl:
 G:/my_program/cpp/Breakout/include/glm/ext/matrix_clip_space.hpp:
 
 G:/my_program/cpp/Breakout/include/glm/ext/vector_relational.hpp:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundSource.h:
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/fstream:
 
@@ -979,11 +1032,15 @@ G:/my_program/cpp/Breakout/include/glm/ext/vector_int1_sized.hpp:
 
 G:/my_program/cpp/Breakout/include/glm/ext/vector_uint1.hpp:
 
+G:/my_program/cpp/Breakout/include/irrklang/ik_SAudioStreamFormat.h:
+
 G:/my_program/cpp/Breakout/include/glm/ext/vector_uint1_sized.hpp:
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/cstring:
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/string.h:
+
+D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/algorithmfwd.h:
 
 G:/my_program/cpp/Breakout/include/glm/gtc/type_ptr.inl:
 
@@ -992,6 +1049,8 @@ D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_6
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/ios_base.h:
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/locale_classes.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundStopEventReceiver.h:
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/system_error:
 
@@ -1037,4 +1096,38 @@ D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_6
 
 D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/uses_allocator.h:
 
+G:/my_program/cpp/Breakout/include/GameUtil/Particle.h:
+
 G:/my_program/cpp/Breakout/include/GameUtil/EntryPoint.h:
+
+D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/stl_tempbuf.h:
+
+D:/Program\ Files\ (x86)/x86_64-5.4.0-release-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/c++/bits/uniform_int_dist.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_irrKlangTypes.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_IRefCounted.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_IVirtualRefCounted.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_ESoundOutputDrivers.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_ESoundEngineOptions.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundEngine.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_ISound.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundEffectControl.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_IFileFactory.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundMixedOutputReceiver.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_IAudioStream.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_IAudioStreamLoader.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_IFileReader.h:
+
+G:/my_program/cpp/Breakout/include/irrklang/ik_ISoundDeviceList.h:
