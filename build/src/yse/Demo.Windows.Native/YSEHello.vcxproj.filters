@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\basePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo00_PlaySound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo01_SoundProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo02_3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo03_Virtual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo04_Channels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo05_Reverb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo06_Devices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo07_DspSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo08_Occlusion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo09_Streaming.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo10_FilePosition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo11_VirtualIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo12_AudioTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo13_Patcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo14_LoadPatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo15_RestartAudio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\Demo.Windows.Native.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\MenuAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\MenuBasics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\MenuDsp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\MenuOther.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\MenuTop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\my_program\cpp\Breakout\src\yse\Demo.Windows.Native\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1E1C1C8D-20D3-3502-B50A-C1D70D2BEF9D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

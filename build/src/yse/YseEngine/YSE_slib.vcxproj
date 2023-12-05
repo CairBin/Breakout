@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{05F5258C-3083-3476-9E88-D7356E16D388}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>YSE_slib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\my_program\cpp\Breakout\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">YSE_slib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">YSE_slib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\my_program\cpp\Breakout\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">YSE_slib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">YSE_slib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\my_program\cpp\Breakout\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">YSE_slib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">YSE_slib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\my_program\cpp\Breakout\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">YSE_slib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">YSE_slib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\my_program\cpp\Breakout\include\yse;G:\my_program\cpp\Breakout\src\yse\YseEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;PORTAUDIO_BACKEND;LIBSOUNDFILE_BACKEND;YSE_LINUX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;PORTAUDIO_BACKEND;LIBSOUNDFILE_BACKEND;YSE_LINUX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\my_program\cpp\Breakout\include\yse;G:\my_program\cpp\Breakout\src\yse\YseEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\my_program\cpp\Breakout\include\yse;G:\my_program\cpp\Breakout\src\yse\YseEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\my_program\cpp\Breakout\include\yse;G:\my_program\cpp\Breakout\src\yse\YseEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PORTAUDIO_BACKEND;LIBSOUNDFILE_BACKEND;YSE_LINUX;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PORTAUDIO_BACKEND;LIBSOUNDFILE_BACKEND;YSE_LINUX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\my_program\cpp\Breakout\include\yse;G:\my_program\cpp\Breakout\src\yse\YseEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\my_program\cpp\Breakout\include\yse;G:\my_program\cpp\Breakout\src\yse\YseEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\my_program\cpp\Breakout\include\yse;G:\my_program\cpp\Breakout\src\yse\YseEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PORTAUDIO_BACKEND;LIBSOUNDFILE_BACKEND;YSE_LINUX;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PORTAUDIO_BACKEND;LIBSOUNDFILE_BACKEND;YSE_LINUX;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\my_program\cpp\Breakout\include\yse;G:\my_program\cpp\Breakout\src\yse\YseEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\my_program\cpp\Breakout\include\yse;G:\my_program\cpp\Breakout\src\yse\YseEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\my_program\cpp\Breakout\include\yse;G:\my_program\cpp\Breakout\src\yse\YseEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PORTAUDIO_BACKEND;LIBSOUNDFILE_BACKEND;YSE_LINUX;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PORTAUDIO_BACKEND;LIBSOUNDFILE_BACKEND;YSE_LINUX;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\my_program\cpp\Breakout\include\yse;G:\my_program\cpp\Breakout\src\yse\YseEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\my_program\cpp\Breakout\include\yse;G:\my_program\cpp\Breakout\src\yse\YseEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/my_program/cpp/Breakout/src/yse/YseEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SG:/my_program/cpp/Breakout -BG:/my_program/cpp/Breakout/build --check-stamp-file G:/my_program/cpp/Breakout/build/src/yse/YseEngine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\my_program\cpp\Breakout\build\src\yse\YseEngine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/my_program/cpp/Breakout/src/yse/YseEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SG:/my_program/cpp/Breakout -BG:/my_program/cpp/Breakout/build --check-stamp-file G:/my_program/cpp/Breakout/build/src/yse/YseEngine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\my_program\cpp\Breakout\build\src\yse\YseEngine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/my_program/cpp/Breakout/src/yse/YseEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SG:/my_program/cpp/Breakout -BG:/my_program/cpp/Breakout/build --check-stamp-file G:/my_program/cpp/Breakout/build/src/yse/YseEngine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\my_program\cpp\Breakout\build\src\yse\YseEngine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/my_program/cpp/Breakout/src/yse/YseEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SG:/my_program/cpp/Breakout -BG:/my_program/cpp/Breakout/build --check-stamp-file G:/my_program/cpp/Breakout/build/src/yse/YseEngine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\my_program\cpp\Breakout\build\src\yse\YseEngine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\BufferIO.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\io.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\listener.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\log.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\system.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\channel\channelImplementation.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\channel\channelInterface.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\channel\channelManager.cpp" />
+    <ClInclude Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\channel\channelMessage.h" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\device\androidDeviceManager.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\device\deviceInterface.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\device\deviceManager.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\device\deviceSetup.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\device\juceDeviceManager.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\device\OpenSL.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\device\OpenSLImplementation.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\device\portaudioDeviceManager.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\ADSRenvelope.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\buffer.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\delay.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\drawableBuffer.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\dspObject.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\envelope.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\fileBuffer.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\filters.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\fourier\fft.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\fourier\mayer.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\interpolate4.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\lfo.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\math.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\math_functions.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\modules\delay\basicDelay.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\modules\delay\highpassDelay.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\modules\delay\lowpassDelay.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\modules\filters\bandpass.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\modules\filters\highpass.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\modules\filters\lowpass.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\modules\filters\sweep.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\modules\fm\difference.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\modules\granulator.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\modules\hilbert.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\modules\phaser.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\modules\ringModulator.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\modules\sineWave.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\oscillators.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\ramp.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\rawFilters.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\sample_functions.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\dsp\wavetable.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\implementations\listenerImplementation.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\implementations\logImplementation.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\internal\abstractSoundFile.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\internal\customFileReader.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\internal\global.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\internal\juceSoundFile.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\internal\lsfSoundfile.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\internal\reverbDSP.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\internal\settings.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\internal\thread.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\internal\threadPool.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\internal\time.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\internal\underWaterEffect.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\internal\virtualFinder.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\json\cJSON.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\midi\midifile.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\midi\midifileImplementation.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\midi\midifileManager.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\music\chord.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\music\note.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\music\pNote.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\music\motif\motifImplementation.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\music\motif\motifInterface.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\music\motif\motifManager.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\music\scale\scaleImplementation.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\music\scale\scaleInterface.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\music\scale\scaleManager.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\filters\dVcf.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\filters\pBandpass.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\filters\pHighpass.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\filters\pLowpass.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\generatorObjects\dNoise.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\generatorObjects\dSaw.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\generatorObjects\pSine.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\genericObjects\gGate.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\genericObjects\gReceive.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\genericObjects\gRoute.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\genericObjects\gSend.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\genericObjects\gSwitch.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\genericObjects\pDac.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\genericObjects\pLine.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\guiObjects\gButton.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\guiObjects\gFloat.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\guiObjects\gInt.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\guiObjects\gMessage.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\guiObjects\gSlider.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\guiObjects\gText.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\guiObjects\gToggle.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\inlet.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\math\dAdd.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\math\dClip.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\math\dDivide.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\math\dMultiply.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\math\dSubstract.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\math\gAdd.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\math\gCounter.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\math\gDivide.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\math\gMultiply.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\math\gRandom.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\math\gSubstract.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\math\pFrequencyToMidi.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\math\pMidiToFrequency.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\outlet.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\parameters.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\patcher.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\patcherImplementation.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\pHandle.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\pObject.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\pRegistry.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\time\gMetro.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\patcher\time\TimerThread.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\player\playerImplementation.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\player\playerInterface.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\player\playerManager.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\reverb\reverbImplementation.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\reverb\reverbInterface.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\reverb\reverbManager.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\sound\soundImplementation.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\sound\soundInterface.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\sound\soundManager.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\synth\dspSound.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\synth\dspVoice.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\synth\dspVoiceInternal.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\synth\samplerSound.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\synth\synthImplementation.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\synth\synthInterface.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\synth\synthManager.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\utils\fileFunctions.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\utils\interpolators.cpp" />
+    <ClCompile Include="G:\my_program\cpp\Breakout\src\yse\YseEngine\utils\vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\my_program\cpp\Breakout\build\ZERO_CHECK.vcxproj">
+      <Project>{902AD94C-4643-3160-A48F-CB7F1FB16DCC}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

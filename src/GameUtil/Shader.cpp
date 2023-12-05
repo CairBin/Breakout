@@ -41,6 +41,7 @@ namespace GameUtil
     Shader &Shader::Use()
     {
         glUseProgram(this->Id);
+        return *this;
     }
     void Shader::setBool(const std::string &name, GLboolean value, GLboolean useShader)
     {

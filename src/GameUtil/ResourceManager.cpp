@@ -32,14 +32,14 @@ namespace GameUtil
         return Textures[name];
     }
 
-    Audio ResourceManager::LoadAudio(const GLchar* file,std::string name){
-        Audio audio(file);
+    Audio& ResourceManager::LoadAudio(const GLchar* file,std::string name){
+        Audio* audio = new Audio(file);
         Audios[name] = audio;
-        return Audios[name];
+        return *Audios[name];
     }
 
-    Audio ResourceManager::GetAudio(std::string name){
-        return Audios[name];
+    Audio& ResourceManager::GetAudio(std::string name){
+        return *Audios[name];
     }
 
 
@@ -49,7 +49,8 @@ namespace GameUtil
             glDeleteProgram(iter.second.Id);
         for (auto iter : Textures)
             glDeleteTextures(1, &iter.second.ID);
-
+        for(auto iter:Audios)
+            delete iter.second;
         Audios.clear();
     }
 

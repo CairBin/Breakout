@@ -33,7 +33,7 @@ public:
     }
 
 private:
-    GLboolean SpawnPowerUps(GameUtil::GameObject &block)
+    void SpawnPowerUps(GameUtil::GameObject &block)
     {
         if (ShouldSpawn(75))
             this->PowerUps.push_back(
@@ -188,12 +188,14 @@ private:
             {
                 box.Destroyed = GL_TRUE;
                 this->SpawnPowerUps(box);
+                SourceManager->GetAudio("bleep").Play();
             }
             else
             {
                 // 实心砖块激活shake特效
                 ShakeTime = 0.05f;
                 Effects->Shake = true;
+                SourceManager->GetAudio("solid").Play();    //播放碰撞音效
             }
 
             GameUtil::DirectState2d dir = std::get<1>(coll);
@@ -234,6 +236,7 @@ private:
                 ActivatePowerUp(powerUp);
                 powerUp.Destroyed = true;
                 powerUp.Activated = true;
+                SourceManager->GetAudio("powerup").Play();
             }
         }
 
@@ -251,6 +254,8 @@ private:
             BallObj->Velocity = glm::normalize(BallObj->Velocity) * glm::length(oldVelocity);
 
             BallObj->Stuck = BallObj->Sticky;
+
+            SourceManager->GetAudio("bleep_board").Play();
         }
     }
 
@@ -307,7 +312,12 @@ public:
     void Initialize()
     {
         /********************初始化音乐**********************/
-        SourceManager->LoadAudio(GetResourceFilePath("audios/breakout.mp3").c_str(), "breakout");
+        SourceManager->LoadAudio(GetResourceFilePath("audios/breakout.ogg").c_str(), "breakout");
+        SourceManager->GetAudio("breakout").SetLoop(true).SetDoppler(true).Play();  //设置循环播放，启动多普勒音效并开始播放
+        SourceManager->LoadAudio(GetResourceFilePath("audios/bleep.ogg").c_str(), "bleep");
+        SourceManager->LoadAudio(GetResourceFilePath("audios/bleep_board.wav").c_str(), "bleep_board");
+        SourceManager->LoadAudio(GetResourceFilePath("audios/powerup.wav").c_str(), "powerup");
+        SourceManager->LoadAudio(GetResourceFilePath("audios/solid.wav").c_str(), "solid");
 
         /*********************初始化着色器************************/
         // 精灵着色器

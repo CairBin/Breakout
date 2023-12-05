@@ -1,0 +1,6 @@
+﻿  Audio.cpp
+G:\my_program\cpp\Breakout\include\yse\dsp/buffer.hpp(38,40): warning C4267: “return”: 从“size_t”转换到“UInt”，可能丢失数据
+G:\my_program\cpp\Breakout\include\yse\utils/vector.hpp(30,31): warning C4244: “return”: 从“double”转换到“Flt”，可能丢失数据
+G:\my_program\cpp\Breakout\include\yse\utils/vector.hpp(99,16): warning C4244: “return”: 从“double”转换到“Flt”，可能丢失数据
+G:\my_program\cpp\Breakout\include\yse\music/motif/motifInterface.hpp(47,19): warning C4267: “return”: 从“size_t”转换到“UInt”，可能丢失数据
+  GameUtil.vcxproj -> G:\my_program\cpp\Breakout\lib\Debug\GameUtil.lib

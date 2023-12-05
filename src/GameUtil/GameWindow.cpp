@@ -99,8 +99,9 @@ namespace GameUtil{
         glViewport(0, 0, Width, Height);
         glEnable(GL_BLEND);
         glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-        GameCore->Initialize();
         Audio::Init();
+        GameCore->Initialize();
+        
     }
 
     void GlfwGameWindow::MainLoop(void* param){

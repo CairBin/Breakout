@@ -4,3 +4,12 @@
 [submodule "src/yse"]
 	path = src/yse
 	url = git@github.com:yvanvds/yse-soundengine.git
+[submodule "build/src/sndfile"]
+	path = build/src/sndfile
+	url = https://github.com/libsndfile/libsndfile.git
+[submodule "src/sndfile"]
+	path = src/sndfile
+	url = https://github.com/libsndfile/libsndfile.git
+[submodule "src/PortAudio"]
+	path = src/PortAudio
+	url = https://github.com/PortAudio/portaudio.git

@@ -1,7 +1,22 @@
 #ifndef _AUDIO_H_
 #define _AUDIO_H_
 
+#include <cstdlib>
+
 #include "yse/yse.hpp"
+
+#if defined YSE_WINDOWS
+#include <conio.h>
+#else
+#include "wincompat.h"
+#endif
+
+#include "yse/system.hpp"
+#include "yse/io.hpp"
+#include "yse/listener.hpp"
+#include "yse/classes.hpp"
+#include "yse/log.hpp"
+
 #include "glad/glad.h"
 #include "glm/glm.hpp"
 
@@ -15,6 +30,7 @@ namespace GameUtil{
 
         private:
             YSE::sound* sound;
+
         public:
             Audio(const char *filename);
             Audio(const char *filename, GLboolean isLoop);
