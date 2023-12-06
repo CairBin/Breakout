@@ -2,7 +2,7 @@
 
 ## 项目介绍
 这是一个基于OpenGL的2D打砖块游戏，代码参考了LearnOpenGL教程的2D游戏实战部分。本项目对原项目做了一些结构性调整。
-原文地址: ![LearnOpenGL-Breakout](https://learnopengl.com/In-Practice/2D-Game/Breakout)
+原文地址: [LearnOpenGL-Breakout](https://learnopengl.com/In-Practice/2D-Game/Breakout)
 
 该项目除了着色器渲染以及纹理贴图外还实现了如下功能：
 * 音乐播放
@@ -67,7 +67,19 @@ make
 ```
 
 ## 素材
-图片与音乐素材来源自![LearnOpenGL文档](https://learnopengl.com/In-Practice/2D-Game/Breakout)，并对部分文件格式做了转换（如`.mp3`转换成了`.ogg`）。
+图片与音乐素材来源自[LearnOpenGL文档](https://learnopengl.com/In-Practice/2D-Game/Breakout)，并对部分文件格式做了转换（如`.mp3`转换成了`.ogg`）。
 字体下载自下载自网络。
 请遵循素材的版权许可，本项目并不对这些内容提供额外授权。
 
+## 效果展示
+
+### 菜单
+![菜单](https://picdl.sunbangyan.cn/2023/12/07/6f4e9ce563c224ddc92bc81350201ad8.jpeg)
+
+![切换地图](https://picdl.sunbangyan.cn/2023/12/07/58da6957d974d57d2fe654770bb31579.jpeg)
+
+### 游戏
+
+![颠倒](https://picst.sunbangyan.cn/2023/12/07/5889b324db7e69385bb6eee28d25076a.jpeg)
+
+![混乱](https://picdm.sunbangyan.cn/2023/12/07/41d796690eb8babe3a0d99f0274da3f1.jpeg)
