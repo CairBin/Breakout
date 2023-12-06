@@ -90,7 +90,10 @@ namespace GameUtil{
                 if (action == GLFW_PRESS)
                     gameWin->GameCore->Keys[key] = true;
                 else if (action == GLFW_RELEASE)
+                {
                     gameWin->GameCore->Keys[key] = false;
+                    gameWin->GameCore->KeysProcessed[key] = false;
+                }
             }
             
         });

@@ -12,6 +12,7 @@
 #include "GameUtil/Particle.h"
 #include "GameUtil/PostProcessor.h"
 #include "GameUtil/Audio.h"
+#include "GameUtil/TextRenderer.h"
 
 #include "GameUtil/EntryPoint.h"
 

@@ -13,3 +13,9 @@
 [submodule "src/PortAudio"]
 	path = src/PortAudio
 	url = https://github.com/PortAudio/portaudio.git
+[submodule "src/FreeType"]
+	path = src/FreeType
+	url = https://github.com/freetype/freetype.git
+[submodule "src/bzip2"]
+	path = src/bzip2
+	url = git://sourceware.org/git/bzip2.git

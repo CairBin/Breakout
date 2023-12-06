@@ -1,6 +1,0 @@
-# CMake generation dependency list for this directory.
-E:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
-E:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
-E:/Program Files/CMake/share/cmake-3.25/Modules/FindPkgConfig.cmake
-G:/my_program/cpp/Breakout/src/yse/CMakeLists.txt
-G:/my_program/cpp/Breakout/src/yse/FindPortaudio.cmake

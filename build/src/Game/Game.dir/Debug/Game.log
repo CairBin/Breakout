@@ -1,6 +1,0 @@
-﻿  Building Custom Rule G:/my_program/cpp/Breakout/src/Game/CMakeLists.txt
-  Ball.cpp
-  PowerUp.cpp
-G:\my_program\cpp\Breakout\include\Game/PowerUp.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  正在生成代码...
-  Game.vcxproj -> G:\my_program\cpp\Breakout\lib\Debug\Game.lib

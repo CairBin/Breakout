@@ -12,12 +12,18 @@ private:
         glm::vec2(100.0f, -350.0f);         // 球的初始速度
     const glm::vec2 PLAYER_SIZE = glm::vec2(100.0f, 20.0f); //用户板子大小
 
+    const GLuint DEFAULT_LIVES = 3;
+
+    //玩家数值变量
+    GLuint Lives = DEFAULT_LIVES;   //生命值
+
     //游戏对象指针
     GameUtil::SpriteRenderer *Renderer;
     GameUtil::GameObject *Player;
     Breakout::Ball *BallObj;
     GameUtil::ParticleGenerator *Particles;
     GameUtil::PostProcessor *Effects;
+    GameUtil::TextRenderer *Text;
 
 private:
     std::vector<GameUtil::GameLevel> Levels;    //关卡
@@ -157,6 +163,7 @@ private:
             Levels[2].Load(GetResourceFilePath("levels/spaceInvader.lv").c_str(), this->Width, this->Height / 2, SourceManager);
         else if (this->Level == 3)
             Levels[3].Load(GetResourceFilePath("levels/bounceGalore.lv").c_str(), this->Width, this->Height / 2, SourceManager);
+        this->Lives = DEFAULT_LIVES;
     }
 
     void ResetPlayer()
@@ -307,10 +314,14 @@ private:
 
 public:
     GameCore(GLuint width, GLuint height, std::string resourcePath)
-        : Game(width, height, resourcePath) {}
+        : Game(width, height, resourcePath,GameUtil::GameState::GAME_MENU) {
+            
+        }
 
     void Initialize()
     {
+        // this->State = GameUtil::GameState::GAME_MENU;
+
         /********************初始化音乐**********************/
         SourceManager->LoadAudio(GetResourceFilePath("audios/breakout.ogg").c_str(), "breakout");
         SourceManager->GetAudio("breakout").SetLoop(true).SetDoppler(true).Play();  //设置循环播放，启动多普勒音效并开始播放
@@ -335,6 +346,10 @@ public:
             GetResourceFilePath("shaders/processShader.vs").c_str(),
             GetResourceFilePath("shaders/processShader.fs").c_str(),
             nullptr, "postprocessing");
+        //文本着色器
+        SourceManager->LoadShader(
+            GetResourceFilePath("shaders/textShader.vs").c_str(),
+            GetResourceFilePath("shaders/textShader.fs").c_str(), nullptr, "text");
         /********************配置着色器******************************/
         glm::mat4 projection = glm::ortho(0.0f, static_cast<GLfloat>(this->Width),
                                           static_cast<GLfloat>(this->Height), 0.0f, -1.0f, 1.0f);
@@ -344,6 +359,8 @@ public:
         SourceManager->GetShader("particle").Use().setInt("sprite", 0);
         SourceManager->GetShader("particle").setMat4("projection", projection);
 
+        SourceManager->GetShader("text").Use().setMat4("projection", glm::ortho(0.0f, static_cast<GLfloat>(Width), static_cast<GLfloat>(Height), 0.0f), true);
+        SourceManager->GetShader("text").setInt("text", 0);
         /*************************配置纹理*************************/
         // 加载纹理
         SourceManager->LoadTexture(GetResourceFilePath("textures/awesomeface.png").c_str(), true, "face");
@@ -394,7 +411,11 @@ public:
                                      BALL_RADIUS,
                                      INITIAL_BALL_VELOCITY,
                                      SourceManager->GetTexture("face"));
-    }
+
+        //初始化文本对象
+        Text = new GameUtil::TextRenderer(SourceManager->GetShader("text"));
+        Text->Load(GetResourceFilePath("fonts/Ocraext.ttf"), 24);
+    }   
 
     
 
@@ -411,9 +432,14 @@ public:
 
         if (BallObj->Position.y >= this->Height)
         {
-            this->Resetlevel();
+            --this->Lives;  //扣血
+            if(this->Lives <= 0){
+                //生命值为0后重置关卡和特效
+                this->Resetlevel();
+                this->ResetEffect();
+            }
+            //只要小球没接住就重置位置
             this->ResetPlayer();
-            this->ResetEffect();
         }
 
         if (ShakeTime > 0.0f)
@@ -422,10 +448,45 @@ public:
             if (ShakeTime <= 0.0f)
                 Effects->Shake = false;
         }
+
+        if(this->State == GameUtil::GameState::GAME_ACTIVE
+            && this->Levels[this->Level].IsCompleted()
+        ){
+            this->Resetlevel();
+            this->ResetPlayer();
+            Effects->Chaos = true;
+            this->State = GameUtil::GameState::GAME_WIN;
+        }
+
     }
 
     void ProcessInput(GLfloat dt)
     {
+        // std::cout << static_cast<int>(this->State) << std::endl;
+        if(this->State == GameUtil::GameState::GAME_MENU)
+        {
+            if (this->Keys[GLFW_KEY_ENTER] && !this->KeysProcessed[GLFW_KEY_ENTER])
+            {
+                // std::cout << static_cast<int>(this->State) << std::endl;
+                this->State = GameUtil::GameState::GAME_ACTIVE;
+                this->KeysProcessed[GLFW_KEY_ENTER] = true;
+            }
+            if (this->Keys[GLFW_KEY_W] && !this->KeysProcessed[GLFW_KEY_W])
+            {
+                // std::cout << "Hello" << std::endl; 
+                this->Level = (this->Level + 1) % 4;
+                this->KeysProcessed[GLFW_KEY_W] = GL_TRUE;
+            }
+            if (this->Keys[GLFW_KEY_S] && !this->KeysProcessed[GLFW_KEY_S])
+            {
+                if (this->Level > 0)
+                    --this->Level;
+                else
+                    this->Level = 3;
+                this->KeysProcessed[GLFW_KEY_S] = true;
+            }
+        }
+
         if (this->State == GameUtil::GameState::GAME_ACTIVE)
         {
             float velocity = PLAYER_VELOCITY * dt;
@@ -448,12 +509,24 @@ public:
             if (this->Keys[GLFW_KEY_SPACE])
                 BallObj->Stuck = false;
         }
+
+        if(this->State == GameUtil::GameState::GAME_WIN){
+            if(this->Keys[GLFW_KEY_ENTER]){
+                this->KeysProcessed[GLFW_KEY_ENTER] = true;
+                Effects->Chaos = false;
+                this->State = GameUtil::GameState::GAME_MENU;
+            }
+        }
+
     }
 
     // 渲染
     void Render()
     {
-        if (this->State == GameUtil::GameState::GAME_ACTIVE)
+        if (this->State == GameUtil::GameState::GAME_ACTIVE
+            || this->State == GameUtil::GameState::GAME_WIN
+            || this->State == GameUtil::GameState::GAME_MENU
+        )
         {
             Effects->BeginRender();
             Renderer->DrawSprite(Game::SourceManager->GetTexture("background"),
@@ -475,6 +548,20 @@ public:
 
             Effects->EndRender();
             Effects->Render(glfwGetTime());
+
+            Text->RenderText("Lives:" + std::to_string(this->Lives), 5.0f, 5.0f, 1.0f);
+        }
+
+        if (this->State == GameUtil::GameState::GAME_MENU){
+            Text->RenderText("Press ENTER to start", 250.0f, this->Height / 2, 1.0f);
+            Text->RenderText("Press W or S to select level", 245.0f, this->Height / 2 + 20.0f, 0.75f);
+        }
+
+        if (this->State == GameUtil::GameState::GAME_WIN)
+        {
+            Text->RenderText("You Won!", 5.0f, 5.0f, 1.0f);
+            Text->RenderText(
+                "Press ENTER to retry or ESC to quit", 130.0, Height / 2, 1.0, glm::vec3(1.0, 1.0, 0.0));
         }
     }
 

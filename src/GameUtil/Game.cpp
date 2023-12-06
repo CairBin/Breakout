@@ -6,8 +6,8 @@
 
 namespace GameUtil
 {
-    Game::Game(GLuint width, GLuint height, std::string resourcePath)
-        : State(GameState::GAME_ACTIVE), Keys(), Width(width), Height(height), ResourcePath(resourcePath), SourceManager(nullptr)
+    Game::Game(GLuint width, GLuint height, std::string resourcePath,GameState state)
+        : State(state), Keys(), Width(width), Height(height), ResourcePath(resourcePath), SourceManager(nullptr)
     {
     }
 

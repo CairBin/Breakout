@@ -26,8 +26,9 @@ namespace GameUtil{
         std::string ResourcePath;
         GameState State;
         GLboolean Keys[MAX_KEYS_SIZE];
+        GLboolean KeysProcessed[MAX_KEYS_SIZE];
         GLuint Width, Height;
-        Game(GLuint width, GLuint height,std::string resourcePath);
+        Game(GLuint width, GLuint height,std::string resourcePath,GameState state);
         ~Game();
         std::string GetResourceFilePath(const std::string& filename);
         virtual void Initialize() = 0;
